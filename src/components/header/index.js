@@ -5,8 +5,6 @@ import styles from "../header/index.module.css";
 const Header = () => {
   const [barsClick, setBarsClick] = useState(false);
 
-  const handlebarsClick = () => {};
-
   return (
     <>
       <header>
