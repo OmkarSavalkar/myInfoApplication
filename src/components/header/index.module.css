@@ -1,10 +1,11 @@
 .topnav {
   overflow: hidden;
   font-family: cursive;
+  background-color: #000;
 }
 
 .header-nameSpan {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: bolder;
 }
 
@@ -31,7 +32,7 @@
 
 .topnav-right a {
   float: right;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-left: 3%;
 }
 
@@ -75,7 +76,7 @@ a:hover::before {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 675px) {
   .topnav a {
     margin-left: 2%;
   }
@@ -87,7 +88,7 @@ a:hover::before {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 540px) {
   .topnav-right {
     display: none;
   }

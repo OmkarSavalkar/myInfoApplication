@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { HeaderComponent } from "../../styledComponents/header/headerStyle";
 import styles from "../header/index.module.css";
 
 const Header = () => {
