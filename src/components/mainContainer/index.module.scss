@@ -1,0 +1,82 @@
+.main-div {
+  margin: 10px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  grid-gap: 5px;
+  font-family: cursive;
+}
+
+.main-div div {
+  height: 100%;
+}
+
+.main-subdiv1 {
+  margin-top: 20%;
+}
+
+.main-role {
+  text-align: left;
+  margin-left: 18%;
+  color: aqua;
+  font-size: 1.1rem;
+  line-height: 2.1;
+}
+
+.main-name {
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.main-shortdescription {
+  text-align: left;
+  color: white;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 675px) {
+  .main-div {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  }
+  .main-role {
+    padding-right: 8%;
+  }
+}

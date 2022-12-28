@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../header/index.module.css";
+import styles from "../header/index.module.scss";
 
 const Header = () => {
   const [barsClick, setBarsClick] = useState(false);
