@@ -11,6 +11,7 @@
 
 .main-div div {
   height: 100%;
+  position: relative;
 }
 
 .main-subdiv1 {
@@ -19,15 +20,16 @@
 }
 
 .main-role {
-  text-align: left;
-  margin-left: 18%;
+  text-align: center;
+  margin-left: 8%;
   color: aqua;
   font-size: 1.1rem;
   line-height: 2.1;
+  position: relative;
 }
 
 .main-name {
-  text-align: left;
+  text-align: center;
   color: white;
   font-size: 2rem;
   font-weight: bold;
@@ -69,10 +71,27 @@
 }
 
 .main-shortdescription {
-  text-align: left;
+  text-align: center;
   color: white;
   font-size: 1rem;
   font-weight: normal;
+}
+
+.resume-button {
+  padding: 5px 45px;
+  margin: 30px 0;
+  background-color: transparent;
+  font-size: 1.1rem;
+  color: aqua;
+  border: 2px solid aqua;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.resume-button:hover {
+  border: 2px solid yellow;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 675px) {
@@ -90,13 +109,12 @@
   padding: 0;
   margin-right: 2px;
   position: relative;
-  border: 2px solid white;
-  height: auto;
   flex: 1;
+  padding-bottom: 0;
 }
 
 .main-subdiv2 > * {
-  position: absolute;
+  position: relative;
   z-index: 1;
 }
 
@@ -109,8 +127,8 @@
   transition: 0.8s;
   padding: 0;
   z-index: 1;
-  -webkit-animation: blob-images1-Animate 1s infinite alternate;
-  animation: blob-images1-Animate 1s infinite alternate;
+  -webkit-animation: blob-images1-Animate 1.5s infinite alternate;
+  animation: blob-images1-Animate 1.5s infinite alternate;
 }
 
 .blob-images2 {
@@ -121,8 +139,8 @@
   top: 5%;
   transition: 0.8s;
   rotate: -8deg;
-  -webkit-animation: blob-images2-Animate 1s infinite alternate;
-  animation: blob-images2-Animate 1s infinite alternate;
+  -webkit-animation: blob-images2-Animate 1.5s infinite alternate;
+  animation: blob-images2-Animate 1.5s infinite alternate;
 }
 
 @keyframes blob-images1-Animate {
@@ -130,7 +148,7 @@
     transform: translate(-45%, 50px);
   }
   100% {
-    transform: translate(-47%, 80px);
+    transform: translate(-47%, 90px);
   }
 }
 
@@ -139,16 +157,16 @@
     transform: translate(-50%, 50px);
   }
   100% {
-    transform: translate(-50%, 20px);
+    transform: translate(-50%, 10px);
   }
 }
 
 .blob-Myimages1 {
   position: relative;
-  width: 51%;
+  width: 52%;
   padding: 0;
   z-index: 2;
-  transform: translate(5%, 0px);
+  // transform: translate(5%, 0px);
   transition: 0.8s;
 }
 
@@ -191,6 +209,21 @@
   }
 }
 
+@media screen and (max-width: 1010px) {
+  // .main-subdiv2 {
+  //   margin-top: 7%;
+  // }
+  .blob-Myimages1 {
+    width: 60%;
+  }
+  .blob-images2 {
+    width: 86%;
+  }
+  .blob-images1 {
+    width: 93%;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .main-subdiv2 {
     padding-top: 5%;
@@ -221,12 +254,32 @@
   }
 }
 
+@media screen and (max-width: 880px) {
+  .main-subdiv2 {
+    padding-top: 10%;
+  }
+  .blob-Myimages1 {
+    width: 65%;
+  }
+  .blob-images2 {
+    width: 89%;
+  }
+  .blob-images1 {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .main-subdiv2 {
+    padding-top: 18%;
+  }
+}
+
 @media screen and (max-width: 690px) {
   .main-div {
     height: 95vh;
   }
   .main-subdiv2 {
-    padding-top: 0%;
     height: 80vh;
   }
   .blob-Myimages1 {
@@ -241,6 +294,7 @@
 }
 
 .main-subdiv3 {
-  position: relative;
   z-index: 5;
+  display: flex;
+  position: relative;
 }

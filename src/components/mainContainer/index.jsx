@@ -1,9 +1,9 @@
 import React from "react";
-import SocialIcons from "../common/socialIcons";
 import styles from "./index.module.scss";
 import blob5 from "../../images/blob2.png";
 import blob1 from "../../images/blob1.png";
 import image1 from "../../images/My project4.png";
+import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 
 const MainContainer = () => {
   return (
@@ -20,12 +20,17 @@ const MainContainer = () => {
                 interactive Web Applications that leads to the success of the
                 overall product
                 <div>
-                  <SocialIcons class="fa fa-github" tooltip="GitHub" />
-                  <SocialIcons class="fa fa-envelope-o" tooltip="Gmail" />
-                  <SocialIcons
-                    class="fa fa-linkedin-square"
-                    tooltip="LinkedIn"
-                  />
+                  <a
+                    className="button"
+                    href={myResume}
+                    download="Resume Omkar Savalkar.pdf"
+                    style={{ color: "aqua", textDecoration: "none" }}
+                  >
+                    <button className={styles["resume-button"]}>
+                      <i className="fa fa-download" />
+                      Download Resume
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -41,9 +46,6 @@ const MainContainer = () => {
               className={styles["blob-Myimages1"]}
             />
           </div>
-        </div>
-        <div className={styles["main-subdiv3"]}>
-          <h3>hiii</h3>
         </div>
       </div>
     </div>

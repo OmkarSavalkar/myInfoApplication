@@ -1,27 +1,28 @@
 import React from "react";
 
 const SocialIcons = (props) => {
+  const { iconClass, tooltip } = props;
+  const openUrl = (iconName) => {
+    iconName === "GitHub"
+      ? window.open("https://github.com/OmkarSavalkar", "_blank")
+      : iconName === "Gmail"
+      ? window.open(
+          "mailto:omkarsavalkar22@gmail.com?subject=SendMail&body=Description"
+        )
+      : window.open("https://www.linkedin.com/in/omkar-savalkar", "_blank");
+  };
+
   return (
     <>
-      {/* <button
-        style={{
-          margin: "25px 30px 20px 0px",
-          backgroundColor: "#7df9ff",
-          borderRadius: 10,
-          width: "38px",
-          height: "38px",
-          padding: "3px",
-          cursor: "pointer",
-        }}
-      > */}
       <i
-        className={`${props.class} fa-2x`}
-        title={props.tooltip}
+        className={`${iconClass} fa-2x`}
+        title={tooltip}
         style={{
           color: "aqua",
           margin: "25px 30px 20px 0px",
           cursor: "pointer",
         }}
+        onClick={() => openUrl(tooltip)}
       ></i>
       {/* </button> */}
     </>
