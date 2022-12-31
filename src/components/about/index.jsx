@@ -7,7 +7,9 @@ import { SectionTitle, SectionSubTitle } from "../../styledComponents";
 const About = () => {
   return (
     <div>
-      <SectionTitle>About</SectionTitle>
+      <div className={styles["about"]}>
+        <SectionTitle>About</SectionTitle>
+      </div>
       <SectionSubTitle>Here you will get to know me</SectionSubTitle>
       <div className={styles["about-grid"]}>
         <div className={styles["about-profileImage"]}>

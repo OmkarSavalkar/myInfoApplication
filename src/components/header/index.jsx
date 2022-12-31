@@ -11,7 +11,7 @@ const Header = () => {
           <a
             href="#home"
             title={
-              "This portfolio is created using React Js, JavaScript, SASS, Styled-Components"
+              "This portfolio is created using React Js, JavaScript, CSS-SASS, Styled-Components"
             }
           >
             <span className={styles["header-nameSpan"]}>Omkar Savalkar </span>

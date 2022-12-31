@@ -86,12 +86,12 @@
   border: 2px solid aqua;
   border-radius: 15px;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important ;
 }
 
 .resume-button:hover {
   border: 2px solid yellow;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 @media screen and (max-width: 675px) {
