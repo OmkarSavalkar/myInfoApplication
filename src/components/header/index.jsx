@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import styles from "../header/index.module.scss";
 import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [barsClick, setBarsClick] = useState(false);
-  const download_file = () => {
-    document.getElementById("my_download").click();
-  };
+  // const download_file = () => {
+  //   document.getElementById("my_download").click();
+  // };
 
   return (
     <>
@@ -42,10 +43,44 @@ const Header = () => {
               <i className="fa fa-download" style={{ marginRight: "10px" }} />
               Resume Download
             </a> */}
-            <a href="#search">Contact</a>
-            <a href="#search">Project</a>
-            <a href="#search">Skills</a>
-            <a href="#about">About</a>
+            <a
+              href="#search"
+              onClick={() => {
+                let scroll_to = document.getElementById("contactId").offsetTop;
+                window.scrollTo({ behavior: "smooth", top: scroll_to });
+              }}
+            >
+              Contact
+            </a>
+            <a
+              href="#search"
+              onClick={() => {
+                let scroll_to = document.getElementById("projectId").offsetTop;
+                window.scrollTo({ behavior: "smooth", top: scroll_to });
+              }}
+            >
+              Project
+            </a>
+            <a
+              href="#search"
+              onClick={() => {
+                // let scroll_to = document.getElementById("skillsId").offsetTop;
+                // window.scrollTo({ behavior: "smooth", top: scroll_to });
+                // console.log("skills clicked");
+              }}
+            >
+              {/* <Link to="/hash-scroll#skillsId">Skills</Link> */}Skills
+            </a>
+            <a
+              href="#aboutId"
+              onClick={() => {
+                console.log("about clicked");
+                let scroll_to = document.getElementById("skillsId").offsetTop;
+                window.scrollTo({ behavior: "smooth", top: scroll_to });
+              }}
+            >
+              About
+            </a>
           </div>
         </div>
       </header>

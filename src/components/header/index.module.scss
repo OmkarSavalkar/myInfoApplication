@@ -65,6 +65,18 @@ a:hover::before {
   transform: scaleX(1);
 }
 
+.btn {
+  cursor: pointer;
+  color: white;
+  background-color: dodgerblue;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+.btn:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+
 .bars {
   float: right;
   padding: 25px 10px 10px 10px;

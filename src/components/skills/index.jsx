@@ -3,6 +3,7 @@ import { SectionSubTitle, SectionTitle } from "../../styledComponents";
 import SkillsDiv from "../common/skillsDiv";
 import styles from "../skills/index.module.scss";
 import skillData from "../../images/skill_Icon_JSON.json";
+import ScrollIndicator from "../common/scrollIndicator";
 
 const Skills = () => {
   return (
@@ -26,6 +27,7 @@ const Skills = () => {
             );
           })}
       </div>
+      <ScrollIndicator />
     </div>
   );
 };

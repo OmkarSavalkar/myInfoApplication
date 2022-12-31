@@ -8,12 +8,23 @@ import Fullpage, {
   FullpageSection,
   FullpageNavigation,
 } from "@ap.cx/react-fullpage";
+import React, { useRef } from "react";
 
 function App() {
   return (
     <div className="App">
       <Fullpage>
-        <FullPageSections>
+        <FullpageNavigation
+          reverse
+          style={{
+            backgroundColor: "rgba(27,35,46,0.4)",
+            // backgroundColor: "#10151b",
+            margin: "0px 16px",
+            padding: 0,
+            zIndex: 1,
+          }}
+        />
+        <FullPageSections style={{ overflow: "auto" }}>
           <FullpageSection className="home-pageSection">
             <Header />
             <Home />

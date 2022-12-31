@@ -4,10 +4,11 @@ import myAvatar from "../../images/mypic1.jpg";
 import SocialIcons from "../common/socialIcons";
 import { SectionTitle, SectionSubTitle } from "../../styledComponents";
 import EmployerCarousel from "./employerCarousel";
+import ScrollIndicator from "../common/scrollIndicator";
 
 const About = () => {
   return (
-    <div style={{ position: "relative", top: 2 }}>
+    <div id="aboutId" style={{ position: "relative", top: 2 }}>
       <div className={styles["about"]}>
         <SectionTitle>About</SectionTitle>
       </div>
@@ -61,6 +62,7 @@ const About = () => {
           <EmployerCarousel />
         </div>
       </div>
+      <ScrollIndicator />
     </div>
   );
 };

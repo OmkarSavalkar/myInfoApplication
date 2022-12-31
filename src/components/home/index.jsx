@@ -4,6 +4,7 @@ import blob5 from "../../images/blob2.png";
 import blob1 from "../../images/blob1.png";
 import image1 from "../../images/My project4.png";
 import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
+import ScrollIndicator from "../common/scrollIndicator";
 
 const Home = () => {
   const download_file = () => {
@@ -58,6 +59,7 @@ const Home = () => {
             />
           </div>
         </div>
+        <ScrollIndicator />
       </div>
     </div>
   );
