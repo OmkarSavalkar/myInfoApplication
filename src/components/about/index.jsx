@@ -1,15 +1,14 @@
 import React from "react";
-import styles from "../about/index.module.css";
+import styles from "../about/index.module.scss";
 import myAvatar from "../../images/mypic1.jpg";
 import SocialIcons from "../common/socialIcons";
+import { SectionTitle, SectionSubTitle } from "../../styledComponents";
 
 const About = () => {
   return (
     <div>
-      <h3 className={styles["about"]}>About</h3>
-      <span style={{ color: "aqua", fontFamily: "cursive" }}>
-        Here you will get to know me
-      </span>
+      <SectionTitle>About</SectionTitle>
+      <SectionSubTitle>Here you will get to know me</SectionSubTitle>
       <div className={styles["about-grid"]}>
         <div className={styles["about-profileImage"]}>
           <img src={myAvatar} alt="Avatar" className={styles["avatar"]} />
@@ -37,6 +36,7 @@ const About = () => {
               href="https://www.linkedin.com/in/omkar-savalkar"
               target="_blank"
               style={{ color: "yellow", paddingRight: "4px" }}
+              rel="noreferrer"
             >
               Linkedin
             </a>

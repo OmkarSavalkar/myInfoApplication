@@ -6,6 +6,9 @@ import image1 from "../../images/My project4.png";
 import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 
 const MainContainer = () => {
+  const download_file = () => {
+    document.getElementById("my_download").click();
+  };
   return (
     <div>
       <div className={styles["main-div"]}>
@@ -19,18 +22,40 @@ const MainContainer = () => {
                 frontend of everything from small business websites to rich
                 interactive Web Applications that leads to the success of the
                 overall product
-                <div>
+                <div className={styles["resume-div"]}>
                   <a
-                    className="button"
+                    id="my_download"
                     href={myResume}
-                    download="Resume Omkar Savalkar.pdf"
-                    style={{ color: "aqua", textDecoration: "none" }}
+                    download="file_name"
+                    style={{ display: "none" }}
                   >
-                    <button className={styles["resume-button"]}>
-                      <i className="fa fa-download" />
-                      Download Resume
-                    </button>
+                    a
                   </a>
+
+                  <button
+                    className={styles["resume-button"]}
+                    onClick={() => download_file()}
+                  >
+                    Download Resume
+                    <i
+                      className="fa fa-download"
+                      style={{ marginLeft: "10px" }}
+                    />
+                  </button>
+                  {/* <button className={styles["resume-button"]}>
+                    <a
+                      className={styles["resume-link"]}
+                      href={myResume}
+                      download="Resume Omkar Savalkar.pdf"
+                      role="button"
+                    >
+                      Download Resume
+                      <i
+                        className="fa fa-download"
+                        style={{ marginLeft: "10px" }}
+                      />
+                    </a>
+                  </button> */}
                 </div>
               </div>
             </div>
