@@ -1,5 +1,5 @@
 .about {
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .about-grid {
@@ -7,7 +7,7 @@
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
   grid-gap: 5px;
   font-family: cursive;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .about-profileImage {
@@ -59,11 +59,6 @@
     margin-top: 120%;
   }
 }
-// @media screen and (max-width: 640px) {
-//   .about {
-//     margin-top: 120%;
-//   }
-// }
 
 @media screen and (max-width: 550px) {
   .about {
@@ -104,6 +99,9 @@
 @media screen and (max-width: 295px) {
   .about {
     margin-top: 150%;
+  }
+  .about-profiledescription {
+    font-size: 1rem;
   }
 }
 

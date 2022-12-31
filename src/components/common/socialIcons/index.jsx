@@ -19,7 +19,7 @@ const SocialIcons = (props) => {
         title={tooltip}
         style={{
           color: "aqua",
-          margin: "25px 30px 20px 0px",
+          margin: "15px 30px 20px 0px",
           cursor: "pointer",
         }}
         onClick={() => openUrl(tooltip)}

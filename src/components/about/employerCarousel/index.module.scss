@@ -1,0 +1,27 @@
+.carousel-logos {
+  width: 30%;
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel-logos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-logos {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-logos {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .carousel-logos {
+    width: 56%;
+  }
+}

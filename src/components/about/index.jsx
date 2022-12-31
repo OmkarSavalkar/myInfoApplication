@@ -3,6 +3,7 @@ import styles from "../about/index.module.scss";
 import myAvatar from "../../images/mypic1.jpg";
 import SocialIcons from "../common/socialIcons";
 import { SectionTitle, SectionSubTitle } from "../../styledComponents";
+import EmployerCarousel from "./employerCarousel";
 
 const About = () => {
   return (
@@ -14,6 +15,9 @@ const About = () => {
       <div className={styles["about-grid"]}>
         <div className={styles["about-profileImage"]}>
           <img src={myAvatar} alt="Avatar" className={styles["avatar"]} />
+          <div>
+            <span style={{ color: "white" }}>Omkar Savalkar</span>
+          </div>
           <div style={{ marginLeft: "20px" }}>
             <SocialIcons iconClass="fa fa-github" tooltip="GitHub" />
             <SocialIcons iconClass="fa fa-envelope-o" tooltip="Gmail" />
@@ -45,6 +49,14 @@ const About = () => {
             or mail{" "}
             <span style={{ color: "yellow" }}>omkarsavalkar22@gmail.com</span>
           </p>
+        </div>
+      </div>
+      <div>
+        <SectionSubTitle>
+          Experienced working with my Past Employers
+        </SectionSubTitle>
+        <div style={{ margin: "5px 50px 20px 50px" }}>
+          <EmployerCarousel />
         </div>
       </div>
     </div>

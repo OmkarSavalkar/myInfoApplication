@@ -42,20 +42,6 @@ const MainContainer = () => {
                       style={{ marginLeft: "10px" }}
                     />
                   </button>
-                  {/* <button className={styles["resume-button"]}>
-                    <a
-                      className={styles["resume-link"]}
-                      href={myResume}
-                      download="Resume Omkar Savalkar.pdf"
-                      role="button"
-                    >
-                      Download Resume
-                      <i
-                        className="fa fa-download"
-                        style={{ marginLeft: "10px" }}
-                      />
-                    </a>
-                  </button> */}
                 </div>
               </div>
             </div>
