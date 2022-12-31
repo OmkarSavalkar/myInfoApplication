@@ -7,7 +7,7 @@ import EmployerCarousel from "./employerCarousel";
 
 const About = () => {
   return (
-    <div>
+    <div style={{ position: "relative", top: 2 }}>
       <div className={styles["about"]}>
         <SectionTitle>About</SectionTitle>
       </div>

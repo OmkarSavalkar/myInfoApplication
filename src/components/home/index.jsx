@@ -26,7 +26,7 @@ const Home = () => {
                   <a
                     id="my_download"
                     href={myResume}
-                    download="file_name"
+                    download="Omkar Savalkar Resume"
                     style={{ display: "none" }}
                   >
                     a

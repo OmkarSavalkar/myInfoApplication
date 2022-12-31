@@ -39,3 +39,19 @@
     transform: rotate(360deg);
   }
 }
+
+.home-pageSection {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pageSection {
+  height: 100vh;
+  overflow: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .home-pageSection {
+    overflow: auto;
+  }
+}

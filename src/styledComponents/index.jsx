@@ -4,7 +4,7 @@ export const SectionTitle = styled.h3`
   position: relative;
   color: aqua;
   display: block;
-  margin-top: 8%;
+  margin-top: 3%;
   font-family: cursive;
   font-size: 1.5rem;
 `;

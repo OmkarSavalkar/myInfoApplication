@@ -6,7 +6,7 @@ import skillData from "../../images/skill_Icon_JSON.json";
 
 const Skills = () => {
   return (
-    <div>
+    <div style={{ position: "relative" }}>
       <SectionTitle>Skills</SectionTitle>
       <SectionSubTitle>
         My current skills in terms of programming and technology mostly related
@@ -14,9 +14,10 @@ const Skills = () => {
       </SectionSubTitle>
       <div className={styles["flex-container"]}>
         {skillData &&
-          skillData.map((item) => {
+          skillData.map((item, index) => {
             return (
               <SkillsDiv
+                key={index}
                 skillName={item?.skillName}
                 rate={item?.skillRating}
                 barColor={item?.barColor}

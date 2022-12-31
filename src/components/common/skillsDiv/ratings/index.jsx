@@ -4,7 +4,7 @@ const Ratings = (props) => {
   const { bgcolor, rate } = props;
 
   const Parentdiv = {
-    height: 5,
+    height: 6,
     width: "100%",
     backgroundColor: "#3c4b63",
     borderRadius: 50,

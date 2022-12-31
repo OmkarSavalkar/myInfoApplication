@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import styles from "../header/index.module.scss";
+import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 
 const Header = () => {
   const [barsClick, setBarsClick] = useState(false);
+  const download_file = () => {
+    document.getElementById("my_download").click();
+  };
 
   return (
     <>
@@ -30,6 +34,14 @@ const Header = () => {
               barsClick ? styles["topnav-rightMobile"] : styles["topnav-right"]
             }
           >
+            {/* <a
+              id="my_download"
+              href={myResume}
+              download="Omkar Savalkar Resume"
+            >
+              <i className="fa fa-download" style={{ marginRight: "10px" }} />
+              Resume Download
+            </a> */}
             <a href="#search">Contact</a>
             <a href="#search">Project</a>
             <a href="#search">Skills</a>
