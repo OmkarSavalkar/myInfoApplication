@@ -5,7 +5,7 @@ import blob1 from "../../images/blob1.png";
 import image1 from "../../images/My project4.png";
 import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 
-const MainContainer = () => {
+const Home = () => {
   const download_file = () => {
     document.getElementById("my_download").click();
   };
@@ -63,4 +63,4 @@ const MainContainer = () => {
   );
 };
 
-export default MainContainer;
+export default Home;

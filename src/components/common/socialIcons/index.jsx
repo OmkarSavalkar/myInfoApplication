@@ -24,7 +24,6 @@ const SocialIcons = (props) => {
         }}
         onClick={() => openUrl(tooltip)}
       ></i>
-      {/* </button> */}
     </>
   );
 };

@@ -41,13 +41,15 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/omkar-savalkar"
               target="_blank"
-              style={{ color: "yellow", paddingRight: "4px" }}
+              style={{ color: "DodgerBlue", paddingRight: "4px" }}
               rel="noreferrer"
             >
               Linkedin
             </a>
             or mail{" "}
-            <span style={{ color: "yellow" }}>omkarsavalkar22@gmail.com</span>
+            <span style={{ color: "DodgerBlue" }}>
+              omkarsavalkar22@gmail.com
+            </span>
           </p>
         </div>
       </div>

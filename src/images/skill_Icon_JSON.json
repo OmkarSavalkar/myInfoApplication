@@ -1,0 +1,63 @@
+[
+  {
+    "skillName": "React Js",
+    "skillRating": 80,
+    "barColor": "aqua",
+    "iconUrl": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+  },
+  {
+    "skillName": "JavaScript",
+    "skillRating": 95,
+    "barColor": "yellow",
+    "iconUrl": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+  },
+  {
+    "skillName": "TypeScript",
+    "skillRating": 85,
+    "barColor": "#1677c7",
+    "iconUrl": "https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png"
+  },
+  {
+    "skillName": "Redux",
+    "skillRating": 60,
+    "barColor": "#764abc",
+    "iconUrl": "https://cdn.worldvectorlogo.com/logos/redux.svg"
+  },
+  {
+    "skillName": "Material UI",
+    "skillRating": 90,
+    "barColor": "#00b0ff",
+    "iconUrl": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+  },
+  {
+    "skillName": "Node Js",
+    "skillRating": 50,
+    "barColor": "#6bc045",
+    "iconUrl": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+  },
+  {
+    "skillName": "Next Js",
+    "skillRating": 60,
+    "barColor": "#74d4cf",
+    "iconUrl": "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
+  },
+
+  {
+    "skillName": "HTML 5",
+    "skillRating": 88,
+    "barColor": "orange",
+    "iconUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+  },
+  {
+    "skillName": "CSS 3",
+    "skillRating": 80,
+    "barColor": "blue",
+    "iconUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+  },
+  {
+    "skillName": "SASS",
+    "skillRating": 70,
+    "barColor": "#F3A1F0",
+    "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/512px-Sass_Logo_Color.svg.png?20150315202757"
+  }
+]
