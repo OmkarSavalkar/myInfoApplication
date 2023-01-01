@@ -8,7 +8,7 @@ import Fullpage, {
   FullpageSection,
   FullpageNavigation,
 } from "@ap.cx/react-fullpage";
-import React, { useRef } from "react";
+import Projects from "./components/projects";
 
 function App() {
   return (
@@ -18,7 +18,6 @@ function App() {
           reverse
           style={{
             backgroundColor: "rgba(27,35,46,0.4)",
-            // backgroundColor: "#10151b",
             margin: "0px 16px",
             padding: 0,
             zIndex: 1,
@@ -34,6 +33,9 @@ function App() {
           </FullpageSection>
           <FullpageSection className="pageSection">
             <Skills />
+          </FullpageSection>
+          <FullpageSection className="pageSection">
+            <Projects />
           </FullpageSection>
         </FullPageSections>
       </Fullpage>

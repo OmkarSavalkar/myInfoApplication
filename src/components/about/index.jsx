@@ -2,17 +2,18 @@ import React from "react";
 import styles from "../about/index.module.scss";
 import myAvatar from "../../images/mypic1.jpg";
 import SocialIcons from "../common/socialIcons";
-import { SectionTitle, SectionSubTitle } from "../../styledComponents";
 import EmployerCarousel from "./employerCarousel";
-import ScrollIndicator from "../common/scrollIndicator";
+import SectionTitleComponent from "../common/sectionTitle";
 
 const About = () => {
   return (
     <div id="aboutId" style={{ position: "relative", top: 2 }}>
       <div className={styles["about"]}>
-        <SectionTitle>About</SectionTitle>
+        <SectionTitleComponent
+          sectionTitle="About"
+          sectionDescription={"Here you will get to know me"}
+        />
       </div>
-      <SectionSubTitle>Here you will get to know me</SectionSubTitle>
       <div className={styles["about-grid"]}>
         <div className={styles["about-profileImage"]}>
           <img src={myAvatar} alt="Avatar" className={styles["avatar"]} />
@@ -55,14 +56,13 @@ const About = () => {
         </div>
       </div>
       <div>
-        <SectionSubTitle>
-          Experienced working with my Past Employers
-        </SectionSubTitle>
+        <SectionTitleComponent
+          sectionDescription={"Experienced working with my Past Employers"}
+        />
         <div style={{ margin: "5px 50px 20px 50px" }}>
           <EmployerCarousel />
         </div>
       </div>
-      <ScrollIndicator />
     </div>
   );
 };

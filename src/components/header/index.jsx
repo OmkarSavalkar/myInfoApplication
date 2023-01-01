@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "../header/index.module.scss";
-import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
-import { Link } from "react-router-dom";
+// import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 
 const Header = () => {
   const [barsClick, setBarsClick] = useState(false);
