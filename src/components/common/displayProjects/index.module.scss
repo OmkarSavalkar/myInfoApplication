@@ -1,0 +1,37 @@
+.project-description {
+  margin: 0 30px 10px 0px;
+  text-align: left;
+  color: white;
+  font-size: 1.03rem;
+  font-weight: normal;
+  //   display: flex;
+  //   justify-content: center;
+}
+
+.project-image {
+  width: 90%;
+  margin-right: 0px;
+  border-radius: 20px;
+}
+
+.project-name {
+  color: aquamarine;
+  font-size: 1.2rem;
+}
+
+.project-role {
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+@media screen and (max-width: 675px) {
+  .project-description {
+    text-align: center;
+  }
+  .project-image {
+    margin-top: 10%;
+  }
+}
