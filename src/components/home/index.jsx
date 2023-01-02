@@ -11,6 +11,7 @@ const Home = () => {
   const download_file = () => {
     document.getElementById("my_download").click();
   };
+
   return (
     <div>
       <div className={styles["main-div"]}>
