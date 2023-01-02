@@ -10,7 +10,6 @@
 }
 
 .main-div div {
-  // height: 100%;
   position: relative;
 }
 
@@ -124,7 +123,6 @@
 .blob-images1 {
   position: absolute;
   width: 80%;
-  // transform: translate(25%, 50px);
   left: 50%;
   top: 3%;
   transition: 0.8s;
@@ -137,7 +135,6 @@
 .blob-images2 {
   position: absolute;
   width: 72%;
-  // transform: translate(50%, 50px);
   left: 50%;
   top: 5%;
   transition: 0.8s;
@@ -169,7 +166,6 @@
   width: 52%;
   padding: 0;
   z-index: 2;
-  // transform: translate(5%, 0px);
   transition: 0.8s;
   border-radius: 0px 0px 50px 98px;
 }
