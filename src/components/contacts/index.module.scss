@@ -1,0 +1,55 @@
+.form {
+  width: 33%;
+  height: 75%;
+  background: #414141;
+  border-radius: 20px;
+  box-shadow: 0 0 100px -10px #000;
+  margin: 3% auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.input-styles {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+  text-align: center;
+  color: white;
+}
+.input-styles :focus {
+  border-bottom: 2px solid dodgerblue;
+}
+.form p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #a0a0a0;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+  .form {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .form {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .form {
+    width: 75%;
+  }
+}
