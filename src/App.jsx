@@ -10,6 +10,7 @@ import Fullpage, {
 } from "@ap.cx/react-fullpage";
 import Projects from "./components/projects";
 import Contacts from "./components/contacts";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           </FullpageSection>
           <FullpageSection className="pageSection">
             <Contacts />
+            <Footer />
           </FullpageSection>
         </FullPageSections>
       </Fullpage>

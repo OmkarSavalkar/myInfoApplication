@@ -1,0 +1,21 @@
+.footer-MaincontactDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  color: #a0a0a0;
+  line-height: 3;
+  margin-top: 25px;
+}
+
+.footer-contactInfo {
+  width: 40%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 675px) {
+  .footer-contactInfo {
+    width: 80%;
+  }
+}

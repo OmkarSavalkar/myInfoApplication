@@ -62,7 +62,7 @@ const Contacts = () => {
       <SectionTitleComponent
         sectionTitle="Contact"
         sectionDescription={
-          "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
+          "My inbox is always open and I'm looking for job opportunities. Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
         }
       />
       <form className={styles["form"]}>

@@ -6,7 +6,7 @@ const SkillsDiv = (props) => {
   const { skillName, rate, barColor, iconLink } = props;
   return (
     <div className={styles["main-skill"]}>
-      <span style={{ fontSize: "1.08rem" }}>{skillName}</span>
+      <span style={{ fontSize: "1.04rem" }}>{skillName}</span>
 
       <div className={styles["skill-iconDiv"]}>
         <img
