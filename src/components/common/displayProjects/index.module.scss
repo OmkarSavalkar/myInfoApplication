@@ -12,6 +12,7 @@
   width: 90%;
   margin-right: 0px;
   border-radius: 20px;
+  border: 6px solid black;
 }
 
 .project-name {
@@ -34,4 +35,24 @@
   .project-image {
     margin-top: 10%;
   }
+}
+
+//-----------------------------------------modal---------------------------------------------------
+.modal-projectName {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.modal-sectionHeading {
+  color: blue;
+}
+
+.modal-techStack {
+  background-color: dodgerblue;
+  color: white;
+  padding: 3px 10px;
+  margin: 5px;
+  border-radius: 10px;
 }

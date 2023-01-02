@@ -7,9 +7,28 @@
   grid-row-gap: 15%;
 }
 
+.this-project {
+  position: relative;
+  margin: 15% 3px 2% 3px;
+}
+
 @media screen and (max-width: 675px) {
   .mainProject-grid {
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     grid-row-gap: 5%;
+  }
+  .this-project {
+    margin-top: 37%;
+  }
+}
+@media screen and (max-width: 455px) {
+  .this-project {
+    margin-top: 45%;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .this-project {
+    margin-top: 70%;
   }
 }
