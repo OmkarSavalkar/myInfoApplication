@@ -1,8 +1,10 @@
 import React from "react";
 import FloatingButton from "../common/floatingButton";
 import styles from "../header/index.module.scss";
+import ModeToggle from "../common/modeToggle";
 
-const Header = () => {
+const Header = (props) => {
+  const { setLightMode, lightMode } = props;
   return (
     <>
       <header>
@@ -17,8 +19,13 @@ const Header = () => {
             <span className={styles["header-nameSpanArrow"]}>{`>>>`}</span>
           </a>
           <div className={styles["topnav-right"]}>
-            <FloatingButton />
+            <FloatingButton fromHeader={true} />
           </div>
+          <ModeToggle
+            fromHeader={true}
+            setLightMode={setLightMode}
+            lightMode={lightMode}
+          />
         </div>
       </header>
     </>

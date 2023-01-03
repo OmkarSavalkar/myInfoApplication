@@ -3,6 +3,7 @@ import { SectionSubTitle, SectionTitle } from "../../../styledComponents";
 import seperatorImage from "../../../images/seperatorImage.png";
 import ScrollIndicator from "../scrollIndicator";
 import FloatingButton from "../floatingButton";
+import ModeToggle from "../modeToggle";
 
 const SectionTitleComponent = (props) => {
   const { sectionTitle, sectionDescription, contactsSection } = props;
@@ -13,7 +14,8 @@ const SectionTitleComponent = (props) => {
         sectionTitle !== "") &&
       sectionTitle ? (
         <>
-          <FloatingButton />
+          {contactsSection ? <></> : <FloatingButton fromHeader={false} />}
+
           <SectionTitle>
             <img
               src={seperatorImage}
@@ -29,6 +31,7 @@ const SectionTitleComponent = (props) => {
               }}
             />{" "}
           </SectionTitle>
+          {contactsSection ? <></> : <ModeToggle fromHeader={false} />}
         </>
       ) : (
         <></>

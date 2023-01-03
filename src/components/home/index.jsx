@@ -57,7 +57,6 @@ const Home = () => {
             />
           </div>
         </div>
-        <FloatingButton />
         <ScrollIndicator />
       </div>
     </div>

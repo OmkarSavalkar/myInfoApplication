@@ -6,7 +6,8 @@ const Ratings = (props) => {
   const Parentdiv = {
     height: 6,
     width: "100%",
-    backgroundColor: "#3c4b63",
+    // backgroundColor: "#3c4b63",
+    backgroundColor: "#475670",
     borderRadius: 50,
     margin: "8px 0px",
   };

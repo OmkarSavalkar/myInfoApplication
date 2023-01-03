@@ -1,9 +1,9 @@
 .form {
   width: 33%;
   height: 75%;
-  background: #414141;
+  background: #6e6e6e;
   border-radius: 20px;
-  box-shadow: 0 0 100px -10px #000;
+  box-shadow: 0 0 60px -10px #000;
   margin: 3% auto;
   padding: 20px 30px;
   box-sizing: border-box;
@@ -27,12 +27,15 @@
 .input-styles :focus {
   border-bottom: 2px solid dodgerblue;
 }
+.input-styles::placeholder {
+  color: #252525;
+}
 .form p:before {
   content: attr(type);
   display: block;
   margin: 28px 0 0;
   font-size: 14px;
-  color: #a0a0a0;
+  color: #cecece;
   font-weight: bold;
 }
 

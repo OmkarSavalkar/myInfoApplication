@@ -28,13 +28,7 @@
 }
 
 .topnav-right {
-  margin-right: 5%;
-}
-
-.topnav-right a {
-  float: right;
-  font-size: 1rem;
-  margin-left: 3%;
+  margin-right: 1%;
 }
 
 a {
@@ -76,17 +70,10 @@ a:hover::before {
   background-color: white;
 }
 
-// .bars {
-//   float: right;
-//   padding: 25px 10px 10px 10px;
-//   display: none;
-// }
-
-/* mobile view bars click */
-.topnav-rightMobile a {
-  display: inline-block;
-  width: 100%;
-  margin: 0 auto;
+@media screen and (max-width: 1145px) {
+  .topnav-right {
+    margin-right: 5%;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -94,25 +81,15 @@ a:hover::before {
     margin-left: 2%;
   }
   .topnav-right {
-    margin-right: 2%;
-  }
-  .topnav-right a {
-    margin-left: 1%;
+    margin-right: 8%;
   }
 }
 
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 565px) {
   .topnav-right {
-    display: none;
+    margin-right: 15%;
   }
   .header-nameSpan {
     font-size: 1.1rem;
-  }
-  .bars {
-    display: block;
-  }
-  .topnav-right a {
-    float: right;
-    font-size: 0.7rem;
   }
 }

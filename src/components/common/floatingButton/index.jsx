@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
+import styles from "../floatingButton/index.module.scss";
 import FloatingButtons from "react-floating-buttons";
 import myResume from "../../../resumeDownload/Resume Omkar Savalkar.pdf";
 
-const FloatingButton = () => {
+const FloatingButton = (props) => {
+  const { fromHeader } = props;
   const [width, setWidth] = useState(window.innerWidth);
-  const [leftpos, setLeftPos] = useState("90%");
   const [direction, setDirection] = useState("left");
 
   const download_file = () => {
@@ -53,17 +54,6 @@ const FloatingButton = () => {
     },
   ];
 
-  const handleScreen810px = () => {
-    setLeftPos("85%");
-  };
-  const handleScreen425px = () => {
-    setLeftPos("78%");
-  };
-  const handleScreen315px = () => {
-    setLeftPos("75%");
-    setDirection("down");
-  };
-
   useEffect(() => {
     function handleResize() {
       setWidth(window.innerWidth);
@@ -73,27 +63,23 @@ const FloatingButton = () => {
   }, [width]);
 
   useEffect(() => {
-    width < 810 && handleScreen810px();
-    width < 425 && handleScreen425px();
-    width < 315 && handleScreen315px();
-    if (width > 810 && leftpos === "85%") {
-      setLeftPos("90%");
-    } else if (width > 425 && width < 810 && leftpos === "78%") {
-      setLeftPos("85%");
-    } else if (width > 315 && width < 425 && leftpos === "78%") {
-      setLeftPos("78%");
-      setDirection("left");
+    if (width < 680) {
+      setDirection("down");
     }
   }, [width]);
 
   return (
-    <div style={{ zIndex: 30 }}>
+    <div
+      className={
+        fromHeader ? styles["float-divHeader"] : styles["float-divNormal"]
+      }
+    >
       <FloatingButtons
         buttonType="hamburge"
         dimension={43}
         buttonsList={FltButtons}
-        top={"10px"}
-        left={leftpos}
+        top={"12px"}
+        left={"83%"}
         direction={direction}
         backgroundColor={"aqua"}
         buttonColor="white"

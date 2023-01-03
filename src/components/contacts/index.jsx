@@ -4,6 +4,7 @@ import { StyledButton } from "../../styledComponents";
 import SectionTitleComponent from "../common/sectionTitle";
 import { send } from "emailjs-com";
 import { useSnackbar } from "react-simple-snackbar";
+import ModeToggle from "../common/modeToggle";
 
 const options = {
   style: {

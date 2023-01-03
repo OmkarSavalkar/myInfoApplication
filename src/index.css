@@ -11,10 +11,6 @@ body {
   scroll-behavior: smooth;
 }
 
-* body {
-  background-image: radial-gradient(#37475e 0%, #10151b 70%);
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

@@ -5,6 +5,12 @@
   padding: 0;
 }
 
+/* * body {
+  background-image: radial-gradient(#37475e 0%, #10151b 70%);
+  background-image: linear-gradient(45deg, #23a88e, #dae65f);
+  background-attachment: fixed;
+} */
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

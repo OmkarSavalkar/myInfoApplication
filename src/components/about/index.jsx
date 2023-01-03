@@ -48,10 +48,6 @@ const About = () => {
             >
               Linkedin
             </a>
-            or mail{" "}
-            <span style={{ color: "DodgerBlue" }}>
-              omkarsavalkar22@gmail.com
-            </span>
           </p>
         </div>
       </div>
