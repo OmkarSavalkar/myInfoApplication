@@ -57,7 +57,9 @@ const About = () => {
       </div>
       <div>
         <SectionTitleComponent
-          sectionDescription={"Experienced working with my Past Employers"}
+          sectionDescription={
+            "Contributed in growth of following reputed companies"
+          }
         />
         <div style={{ margin: "5px 50px 20px 50px" }}>
           <EmployerCarousel />

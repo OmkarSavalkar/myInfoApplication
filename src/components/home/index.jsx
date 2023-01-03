@@ -6,6 +6,7 @@ import image1 from "../../images/My project4.png";
 import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 import ScrollIndicator from "../common/scrollIndicator";
 import { StyledButton } from "../../styledComponents";
+import FloatingButton from "../common/floatingButton";
 
 const Home = () => {
   const download_file = () => {
@@ -56,6 +57,7 @@ const Home = () => {
             />
           </div>
         </div>
+        <FloatingButton />
         <ScrollIndicator />
       </div>
     </div>

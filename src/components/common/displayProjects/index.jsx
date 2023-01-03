@@ -46,9 +46,6 @@ const DisplayProject = (props) => {
         <span className={styles["project-name"]}>
           {`${data?.projectName}`.toUpperCase()}
         </span>
-        {/* <div>
-          <span className={styles["project-role"]}>Role: {data?.role}</span>
-        </div> */}
         <p>{data?.shortDescription}</p>
         <StyledButton
           buttonMargin={"3px"}
@@ -115,6 +112,7 @@ const DisplayProject = (props) => {
                     href={data?.liveLink}
                     target={"_blank"}
                     style={{ color: "gray" }}
+                    rel="noreferrer"
                   >
                     {data?.liveLink}
                   </a>
