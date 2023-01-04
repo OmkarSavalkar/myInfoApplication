@@ -18,6 +18,8 @@ const customStyles = {
     transform: "translate(-60%, -50%)",
     overflow: "auto",
     borderRadius: "20px",
+    backgroundColor: "#dbdbdb",
+    border: "1px solid black",
   },
 };
 
@@ -65,8 +67,8 @@ const DisplayProject = (props) => {
         <img
           src={"https://cdn-icons-png.flaticon.com/512/5369/5369422.png"}
           alt="close"
-          width="30px"
-          height="30px"
+          width="40px"
+          height="40px"
           style={{ float: "right", cursor: "pointer" }}
           onClick={closeModal}
         />

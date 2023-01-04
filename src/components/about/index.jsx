@@ -52,7 +52,7 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/omkar-savalkar"
               target="_blank"
-              style={{ color: "DodgerBlue", paddingRight: "4px" }}
+              style={{ color: "#970aff", paddingRight: "4px" }}
               rel="noreferrer"
             >
               Linkedin
