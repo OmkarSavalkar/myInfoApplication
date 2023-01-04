@@ -17,7 +17,7 @@ export const StyledButton = styled.button`
   background-color: transparent;
   font-size: 1.1rem;
   color: aqua;
-  border: 2px solid aqua;
+  border: 3px solid aqua;
   border-radius: 15px;
   cursor: pointer;
   text-decoration: none !important ;
@@ -39,18 +39,18 @@ export const SectionTitle = styled.h3`
   display: block;
   margin-top: 3%;
   font-family: cursive;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 `;
 
 export const SectionSubTitle = styled.span`
   color: aqua;
   font-family: cursive;
   margin: 0px 15px 0px 10px;
-  font-size: 1.02rem;
+  font-size: 1.07rem;
 `;
 
 export const ProjectTitle = styled.span`
   color: ${(props) => (props.mode ? "#ffff80" : "dodgerblue")};
-  font-size: 1.03rem;
+  font-size: 1.05rem;
   font-weight: 400;
 `;

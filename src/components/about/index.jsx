@@ -44,7 +44,7 @@ const About = () => {
             ability. Achieved Spot Award for best performance in Xoriant(current
             company) and have knowledge of working on web application
             development projects from scratch during job tenure using frontend
-            react-javascript skills. <br></br>
+            react-javascript skills. 😇 <br></br>
             <br></br> Recently, I had started seeking for more job opportunities
             in a reputed firm where I can code more, learn new techs, challenge
             myself, and experience a more exciting work culture. <br></br> Feel

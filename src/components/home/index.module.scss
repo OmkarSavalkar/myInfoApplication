@@ -21,8 +21,7 @@
 .main-role {
   text-align: center;
   margin-left: 8%;
-  color: yellow;
-  font-size: 1.22rem;
+  font-size: 1.6rem;
   line-height: 2.1;
   position: relative;
 }
@@ -163,12 +162,35 @@
 
 .blob-Myimages1 {
   position: relative;
-  width: 50%;
+  width: 52%;
   margin-top: 2.5%;
   padding: 0;
   z-index: 2;
   transition: 0.8s;
   border-radius: 0px 0px 50px 98px;
+}
+
+@media screen and (min-width: 1480px) {
+  .blob-Myimages1 {
+    width: 52%;
+  }
+  .blob-images2 {
+    width: 83%;
+  }
+  .blob-images1 {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1380px) {
+  .blob-Myimages1 {
+    width: 53%;
+  }
+  .blob-images2 {
+    width: 84%;
+  }
+  .blob-images1 {
+    width: 91%;
+  }
 }
 
 @media screen and (max-width: 1200px) {

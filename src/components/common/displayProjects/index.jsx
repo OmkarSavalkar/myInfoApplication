@@ -72,7 +72,7 @@ const DisplayProject = (props) => {
           style={{ float: "right", cursor: "pointer" }}
           onClick={closeModal}
         />
-        <p style={{ fontSize: "0.8rem", color: "gray" }}>
+        <p style={{ fontSize: "0.9rem", color: "gray" }}>
           Here you will get all information about this project which includes my
           Role, Technology Stack, Project Overview and links of self projects
         </p>

@@ -4,7 +4,6 @@ import { StyledButton } from "../../styledComponents";
 import SectionTitleComponent from "../common/sectionTitle";
 import { send } from "emailjs-com";
 import { useSnackbar } from "react-simple-snackbar";
-import ModeToggle from "../common/modeToggle";
 
 const options = {
   style: {
@@ -71,7 +70,7 @@ const Contacts = (props) => {
       />
       <form className={styles["form"]}>
         <div style={{ fontSize: "1.5rem", fontWeight: "bold", color: "white" }}>
-          ! Buzz Me !
+          💬 ! Buzz Me ! 💬
         </div>
         <p type="Name:">
           <input
