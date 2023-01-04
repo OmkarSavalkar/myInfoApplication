@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./index.module.scss";
 import blob5 from "../../images/blob2.png";
 import blob1 from "../../images/blob1.png";
@@ -6,19 +6,28 @@ import image1 from "../../images/My project4.png";
 import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 import ScrollIndicator from "../common/scrollIndicator";
 import { StyledButton } from "../../styledComponents";
-import FloatingButton from "../common/floatingButton";
 
-const Home = () => {
+const Home = (props) => {
+  const { lightMode } = props;
+  const [mode, setMode] = useState(lightMode);
+
   const download_file = () => {
     document.getElementById("my_download").click();
   };
+
+  useEffect(() => {
+    setMode(!lightMode);
+  }, [lightMode]);
 
   return (
     <div>
       <div className={styles["main-div"]}>
         <div className={styles["main-subdiv1"]}>
           <div className={styles["main-role"]}>
-            {"Front End Developer".toUpperCase()}
+            <span style={{ color: mode ? "yelow" : "aqua" }}>
+              {" "}
+              {"Front End Developer".toUpperCase()}
+            </span>
             <div className={styles["main-name"]}>
               <span className={styles["wave"]}>👋 </span>Hey, I'm Omkar Savalkar
               <div className={styles["main-shortdescription"]}>

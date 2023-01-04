@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BodyBackground = styled.div`
   background-image: ${(props) =>
     props.bg
-      ? "linear-gradient(45deg, #23a88e, #dae65f)"
+      ? "linear-gradient(360deg, #185794, #63c1d6)"
       : "radial-gradient(#37475e 0%, #10151b 70%)"};
   // background-image: radial-gradient(#37475e 0%, #10151b 70%);
   // background-image: linear-gradient(45deg, #23a88e, #dae65f);
@@ -25,7 +25,7 @@ export const StyledButton = styled.button`
     margin-left: 10px;
   }
   &:hover {
-    border: 2px solid DodgerBlue;
+    border: 2px solid yellow;
     text-decoration: none !important;
     i {
       color: white;
@@ -50,6 +50,7 @@ export const SectionSubTitle = styled.span`
 `;
 
 export const ProjectTitle = styled.span`
-  color: ${(props) => (props.mode ? "white" : "rgb(0, 195, 255)")};
+  color: ${(props) => (props.mode ? "#ffff80" : "dodgerblue")};
   font-size: 1.03rem;
+  font-weight: 400;
 `;

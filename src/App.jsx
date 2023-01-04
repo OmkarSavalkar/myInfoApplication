@@ -32,7 +32,7 @@ function App() {
           <FullPageSections style={{ overflow: "auto" }}>
             <FullpageSection className="home-pageSection">
               <Header setLightMode={setLightMode} lightMode={lightMode} />
-              <Home />
+              <Home lightMode={lightMode} />
             </FullpageSection>
             <FullpageSection className="pageSection">
               <About lightMode={lightMode} />
