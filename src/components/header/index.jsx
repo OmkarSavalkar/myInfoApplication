@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FloatingButton from "../common/floatingButton";
 import styles from "../header/index.module.scss";
 import ModeToggle from "../common/modeToggle";
 
 const Header = (props) => {
   const { setLightMode, lightMode } = props;
+
+  useEffect(() => {}, []);
   return (
     <>
       <header>

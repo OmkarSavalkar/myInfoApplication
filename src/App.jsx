@@ -12,10 +12,15 @@ import Projects from "./components/projects";
 import Contacts from "./components/contacts";
 import Footer from "./components/footer";
 import { BodyBackground } from "./styledComponents";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [lightMode, setLightMode] = useState(true);
+  const [openMsg, setOpenMsg] = useState(false);
+
+  useEffect(() => {
+    setOpenMsg(true);
+  }, []);
 
   return (
     <div className="App">
@@ -32,7 +37,7 @@ function App() {
           <FullPageSections style={{ overflow: "auto" }}>
             <FullpageSection className="home-pageSection">
               <Header setLightMode={setLightMode} lightMode={lightMode} />
-              <Home lightMode={lightMode} />
+              <Home lightMode={lightMode} openMsg={openMsg} />
             </FullpageSection>
             <FullpageSection className="pageSection">
               <About lightMode={lightMode} />

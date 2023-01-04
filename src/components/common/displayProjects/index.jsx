@@ -24,7 +24,7 @@ const customStyles = {
 };
 
 const DisplayProject = (props) => {
-  const { data, lightMode } = props;
+  const { data } = props;
 
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -46,9 +46,7 @@ const DisplayProject = (props) => {
         />
       </div>
       <div className={styles["project-description"]}>
-        <ProjectTitle mode={lightMode}>
-          {`${data?.projectName}`.toUpperCase()}
-        </ProjectTitle>
+        <ProjectTitle>{`${data?.projectName}`.toUpperCase()}</ProjectTitle>
         <p>{data?.shortDescription}</p>
         <StyledButton
           buttonMargin={"3px"}

@@ -50,7 +50,7 @@ export const SectionSubTitle = styled.span`
 `;
 
 export const ProjectTitle = styled.span`
-  color: ${(props) => (props.mode ? "#ffff80" : "dodgerblue")};
+  color: #ffff80;
   font-size: 1.05rem;
   font-weight: 400;
 `;

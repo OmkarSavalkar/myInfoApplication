@@ -23,9 +23,7 @@ const Projects = (props) => {
         <div className={styles["mainProject-grid"]}>
           {projectData &&
             projectData?.map((item, index) => {
-              return (
-                <DisplayProject data={item} key={index} lightMode={lightMode} />
-              );
+              return <DisplayProject data={item} key={index} />;
             })}
         </div>
       </div>

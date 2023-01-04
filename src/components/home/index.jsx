@@ -6,14 +6,50 @@ import image1 from "../../images/My project4.png";
 import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 import ScrollIndicator from "../common/scrollIndicator";
 import { StyledButton } from "../../styledComponents";
+import Modal from "react-modal";
+
+const customStyles = {
+  content: {
+    width: "55%",
+    height: "25%",
+    top: "50%",
+    left: "56%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-60%, -50%)",
+    overflow: "auto",
+    borderRadius: "20px",
+    backgroundColor: "#dbdbdb",
+    border: "1px solid black",
+  },
+};
 
 const Home = (props) => {
-  const { lightMode } = props;
+  const { lightMode, openMsg } = props;
   const [mode, setMode] = useState(lightMode);
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   const download_file = () => {
     document.getElementById("my_download").click();
   };
+
+  useEffect(() => {
+    if (openMsg) {
+      openModal();
+      setTimeout(() => {
+        setIsOpen(false);
+      }, 8000);
+    }
+  }, [openMsg]);
 
   useEffect(() => {
     setMode(!lightMode);
@@ -68,6 +104,43 @@ const Home = (props) => {
         </div>
         <ScrollIndicator />
       </div>
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal"
+        ariaHideApp={false}
+      >
+        <img
+          src={"https://cdn-icons-png.flaticon.com/512/5369/5369422.png"}
+          alt="close"
+          width="40px"
+          height="40px"
+          style={{ float: "right", cursor: "pointer" }}
+          onClick={closeModal}
+        />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <p
+            style={{
+              fontSize: "1.2rem",
+              color: "black",
+            }}
+          >
+            📌 Please scroll a bit more for next section as indicated by scroll
+            bar (right side) since few sections are lenghty.{" "}
+            <span style={{ fontWeight: "bold" }}>Thank you!</span>
+            <br></br>
+            <br></br>
+            Refresh to see again
+          </p>
+        </div>
+      </Modal>
     </div>
   );
 };
