@@ -170,44 +170,64 @@
   border-radius: 0px 0px 50px 98px;
 }
 
-@media screen and (min-width: 1480px) {
+@media screen and (max-width: 1450px) {
   .blob-Myimages1 {
-    width: 52%;
+    width: 56%;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .blob-Myimages1 {
+    width: 58%;
+    margin-top: 3.5%;
+  }
+  .blob-images2 {
+    width: 80%;
+  }
+  .blob-images1 {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .blob-Myimages1 {
+    width: 60%;
   }
   .blob-images2 {
     width: 83%;
-  }
-  .blob-images1 {
-    width: 90%;
-  }
-}
-@media screen and (min-width: 1380px) {
-  .blob-Myimages1 {
-    width: 53%;
-  }
-  .blob-images2 {
-    width: 84%;
   }
   .blob-images1 {
     width: 91%;
   }
 }
 
-@media screen and (max-width: 1200px) {
+// @media screen and (max-width: 1200px) {
+//   .blob-Myimages1 {
+//     width: 54%;
+//   }
+//   .blob-images2 {
+//     width: 85%;
+//   }
+//   .blob-images1 {
+//     width: 92%;
+//   }
+// }
+
+@media screen and (max-width: 1215px) {
   .blob-Myimages1 {
-    width: 54%;
+    width: 63%;
+    margin-top: 4.3%;
   }
   .blob-images2 {
-    width: 85%;
+    width: 83%;
   }
   .blob-images1 {
-    width: 92%;
+    width: 91%;
   }
 }
 
 @media screen and (max-width: 1110px) {
   .blob-Myimages1 {
-    width: 58%;
+    width: 69%;
+    // width: 58%;
   }
   .blob-images2 {
     width: 87%;
@@ -222,7 +242,8 @@
     margin-top: 7%;
   }
   .blob-Myimages1 {
-    width: 58%;
+    width: 74%;
+    // width: 58%;
   }
   .blob-images2 {
     width: 85%;
@@ -234,7 +255,9 @@
 
 @media screen and (max-width: 1010px) {
   .blob-Myimages1 {
-    width: 60%;
+    width: 75%;
+    margin-top: 3%;
+    // width: 60%;
   }
   .blob-images2 {
     width: 86%;
@@ -249,13 +272,13 @@
     padding-top: 5%;
   }
   .blob-Myimages1 {
-    width: 60%;
+    width: 78%;
   }
   .blob-images2 {
-    width: 86%;
+    width: 87%;
   }
   .blob-images1 {
-    width: 93%;
+    width: 94%;
   }
 }
 
