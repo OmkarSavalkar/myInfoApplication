@@ -16,7 +16,8 @@ const options = {
   },
 };
 
-const Contacts = () => {
+const Contacts = (props) => {
+  const { lightMode } = props;
   const [openSnackbar] = useSnackbar(options);
   const [toSend, setToSend] = useState({
     from_name: "",
@@ -66,6 +67,7 @@ const Contacts = () => {
           "My inbox is always open and I'm looking for job opportunities. Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
         }
         contactsSection={true}
+        lightMode={lightMode}
       />
       <form className={styles["form"]}>
         <div style={{ fontSize: "1.5rem", fontWeight: "bold", color: "white" }}>

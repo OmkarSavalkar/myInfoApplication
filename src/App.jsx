@@ -35,16 +35,16 @@ function App() {
               <Home />
             </FullpageSection>
             <FullpageSection className="pageSection">
-              <About />
+              <About lightMode={lightMode} />
             </FullpageSection>
             <FullpageSection className="pageSection">
-              <Skills />
+              <Skills lightMode={lightMode} />
             </FullpageSection>
             <FullpageSection className="pageSection">
-              <Projects />
+              <Projects lightMode={lightMode} />
             </FullpageSection>
             <FullpageSection className="pageSection">
-              <Contacts />
+              <Contacts lightMode={lightMode} />
               <Footer />
             </FullpageSection>
           </FullPageSections>

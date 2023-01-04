@@ -1,7 +1,7 @@
 import React from "react";
 
 const SocialIcons = (props) => {
-  const { iconClass, tooltip } = props;
+  const { icon, tooltip } = props;
   const openUrl = (iconName) => {
     iconName === "GitHub"
       ? window.open("https://github.com/OmkarSavalkar", "_blank")
@@ -14,16 +14,15 @@ const SocialIcons = (props) => {
 
   return (
     <>
-      <i
-        className={`${iconClass} fa-2x`}
+      <img
+        src={icon}
+        alt="icon pic"
+        width={"32px"}
+        height={"32px"}
+        style={{ margin: "15px 30px 20px 0px", cursor: "pointer" }}
         title={tooltip}
-        style={{
-          color: "aqua",
-          margin: "15px 30px 20px 0px",
-          cursor: "pointer",
-        }}
         onClick={() => openUrl(tooltip)}
-      ></i>
+      />
     </>
   );
 };

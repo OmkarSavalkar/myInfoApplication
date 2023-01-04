@@ -5,7 +5,8 @@ import projectData from "../../JSON/projects.json";
 import DisplayProject from "../common/displayProjects";
 import { SectionSubTitle } from "../../styledComponents";
 
-const Projects = () => {
+const Projects = (props) => {
+  const { lightMode } = props;
   return (
     <div style={{ position: "relative" }}>
       <div>
@@ -15,13 +16,16 @@ const Projects = () => {
             sectionDescription={
               "Here you will find some of the personal and clients projects that I created with each project containing its overview"
             }
+            lightMode={lightMode}
           />
         </div>
         <div id="modalMain"></div>
         <div className={styles["mainProject-grid"]}>
           {projectData &&
             projectData?.map((item, index) => {
-              return <DisplayProject data={item} key={index} />;
+              return (
+                <DisplayProject data={item} key={index} lightMode={lightMode} />
+              );
             })}
         </div>
       </div>

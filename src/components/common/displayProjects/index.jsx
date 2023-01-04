@@ -4,6 +4,7 @@ import { StyledButton } from "../../../styledComponents";
 import asee from "../../../images/asee.png";
 import connectwell from "../../../images/connectwell.png";
 import Modal from "react-modal";
+import { ProjectTitle } from "../../../styledComponents";
 
 const customStyles = {
   content: {
@@ -21,7 +22,7 @@ const customStyles = {
 };
 
 const DisplayProject = (props) => {
-  const { data } = props;
+  const { data, lightMode } = props;
 
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -43,9 +44,9 @@ const DisplayProject = (props) => {
         />
       </div>
       <div className={styles["project-description"]}>
-        <span className={styles["project-name"]}>
+        <ProjectTitle mode={lightMode}>
           {`${data?.projectName}`.toUpperCase()}
-        </span>
+        </ProjectTitle>
         <p>{data?.shortDescription}</p>
         <StyledButton
           buttonMargin={"3px"}

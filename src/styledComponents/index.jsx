@@ -8,6 +8,7 @@ export const BodyBackground = styled.div`
   // background-image: radial-gradient(#37475e 0%, #10151b 70%);
   // background-image: linear-gradient(45deg, #23a88e, #dae65f);
   background-attachment: fixed;
+  transition: 2s;
 `;
 
 export const StyledButton = styled.button`
@@ -46,4 +47,9 @@ export const SectionSubTitle = styled.span`
   font-family: cursive;
   margin: 0px 15px 0px 10px;
   font-size: 1.02rem;
+`;
+
+export const ProjectTitle = styled.span`
+  color: ${(props) => (props.mode ? "white" : "rgb(0, 195, 255)")};
+  font-size: 1.03rem;
 `;

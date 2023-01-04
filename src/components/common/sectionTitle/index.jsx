@@ -3,10 +3,10 @@ import { SectionSubTitle, SectionTitle } from "../../../styledComponents";
 import seperatorImage from "../../../images/seperatorImage.png";
 import ScrollIndicator from "../scrollIndicator";
 import FloatingButton from "../floatingButton";
-import ModeToggle from "../modeToggle";
 
 const SectionTitleComponent = (props) => {
   const { sectionTitle, sectionDescription, contactsSection } = props;
+
   return (
     <div>
       {(sectionTitle != null ||
@@ -31,7 +31,6 @@ const SectionTitleComponent = (props) => {
               }}
             />{" "}
           </SectionTitle>
-          {contactsSection ? <></> : <ModeToggle fromHeader={false} />}
         </>
       ) : (
         <></>

@@ -5,7 +5,8 @@ import skillData from "../../JSON/skill_Icon_JSON.json";
 import ScrollIndicator from "../common/scrollIndicator";
 import SectionTitleComponent from "../common/sectionTitle";
 
-const Skills = () => {
+const Skills = (props) => {
+  const { lightMode } = props;
   return (
     <div style={{ position: "relative" }}>
       <SectionTitleComponent
@@ -13,6 +14,7 @@ const Skills = () => {
         sectionDescription={
           "My current skills in terms of programming and technology mostly related to front end"
         }
+        lightMode={lightMode}
       />
       <div className={styles["flex-container"]}>
         {skillData &&
