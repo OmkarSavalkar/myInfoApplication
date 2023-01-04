@@ -15,7 +15,6 @@ const SectionTitleComponent = (props) => {
       sectionTitle ? (
         <>
           {contactsSection ? <></> : <FloatingButton fromHeader={false} />}
-
           <SectionTitle>
             <img
               src={seperatorImage}

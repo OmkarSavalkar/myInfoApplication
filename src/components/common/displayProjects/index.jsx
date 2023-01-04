@@ -62,12 +62,14 @@ const DisplayProject = (props) => {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <button
-          onClick={closeModal}
+        <img
+          src={"https://cdn-icons-png.flaticon.com/512/5369/5369422.png"}
+          alt="close"
+          width="30px"
+          height="30px"
           style={{ float: "right", cursor: "pointer" }}
-        >
-          <i className="fa fa-times" />
-        </button>
+          onClick={closeModal}
+        />
         <p style={{ fontSize: "0.8rem", color: "gray" }}>
           Here you will get all information about this project which includes my
           Role, Technology Stack, Project Overview and links of self projects

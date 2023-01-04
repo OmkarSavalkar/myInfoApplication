@@ -21,9 +21,18 @@ const About = () => {
             <span style={{ color: "white" }}>Omkar Savalkar</span>
           </div>
           <div style={{ marginLeft: "20px" }}>
-            <SocialIcons iconClass="fa fa-github" tooltip="GitHub" />
-            <SocialIcons iconClass="fa fa-envelope-o" tooltip="Gmail" />
-            <SocialIcons iconClass="fa fa-linkedin-square" tooltip="LinkedIn" />
+            <SocialIcons
+              icon="https://cdn-icons-png.flaticon.com/512/1051/1051275.png"
+              tooltip="GitHub"
+            />
+            <SocialIcons
+              icon="https://cdn-icons-png.flaticon.com/512/5321/5321274.png"
+              tooltip="Gmail"
+            />
+            <SocialIcons
+              icon="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
+              tooltip="LinkedIn"
+            />
           </div>
         </div>
         <div className={styles["about-profiledescription"]}>
