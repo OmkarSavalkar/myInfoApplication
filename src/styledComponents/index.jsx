@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BodyBackground = styled.div`
   background-image: ${(props) =>
     props.bg
-      ? "linear-gradient(360deg, #185794, #63c1d6)"
+      ? "linear-gradient(45deg, #23a88e, #dae65f)"
       : "radial-gradient(#37475e 0%, #10151b 70%)"};
   // background-image: radial-gradient(#37475e 0%, #10151b 70%);
   // background-image: linear-gradient(45deg, #23a88e, #dae65f);
