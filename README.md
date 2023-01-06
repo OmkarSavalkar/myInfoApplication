@@ -3,7 +3,7 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=OmkarSavalkar.myInfoApplication)
 
 Eye catching and user friendly react application that present all my skills and my details. In short it is my online resume in a interactive way to showcase my frontend work.
-<a href="https://omkar-ownwebapp.vercel.app" target="_blank"></a>
+<a href="https://omkar-ownwebapp.vercel.app" target="_blank">Click Here to visit this application</a>
 ___
 
 ## Software Requirements
