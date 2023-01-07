@@ -15,7 +15,7 @@ import { BodyBackground } from "./styledComponents";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [lightMode, setLightMode] = useState(true);
+  const [lightMode, setLightMode] = useState(false);
   const [openMsg, setOpenMsg] = useState(false);
 
   useEffect(() => {
