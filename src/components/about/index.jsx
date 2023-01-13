@@ -22,6 +22,10 @@ const About = () => {
           </div>
           <div style={{ marginLeft: "20px" }}>
             <SocialIcons
+              icon="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-256.png"
+              tooltip="Instagram"
+            />
+            <SocialIcons
               icon="https://cdn-icons-png.flaticon.com/512/1051/1051275.png"
               tooltip="GitHub"
             />

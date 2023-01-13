@@ -21,6 +21,10 @@ const FloatingButton = (props) => {
     window.open("http://www.linkedin.com/in/omkar-savalkar");
   };
 
+  const insta_view = () => {
+    window.open("https://www.instagram.com/omkar.s22/");
+  };
+
   let FltButtons = [
     {
       onClick: () => linkedin_view(),
@@ -53,6 +57,10 @@ const FloatingButton = (props) => {
       },
       src: "https://cdn-icons-png.flaticon.com/512/1257/1257423.png?w=740&t=st=1672744020~exp=1672744620~hmac=88ee3d318b0babbf2b4461c6029bea23e422edf25ea8ec2942b3c1af23dc66a0",
     },
+    {
+      onClick: () => insta_view(),
+      src: "https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-256.png",
+    },
   ];
 
   useEffect(() => {
@@ -75,6 +83,7 @@ const FloatingButton = (props) => {
       className={
         fromHeader ? styles["float-divHeader"] : styles["float-divNormal"]
       }
+      title="Contains:- Instagram profile, Download resume, View resume, view contact details, linkedin profile"
     >
       <FloatingButtons
         buttonType="hamburge"

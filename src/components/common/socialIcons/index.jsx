@@ -9,6 +9,8 @@ const SocialIcons = (props) => {
       ? window.open(
           "mailto:omkarsavalkar22@gmail.com?subject=SendMail&body=Description"
         )
+      : iconName === "Instagram"
+      ? window.open("https://www.instagram.com/omkar.s22/", "_blank")
       : window.open("https://www.linkedin.com/in/omkar-savalkar", "_blank");
   };
 
