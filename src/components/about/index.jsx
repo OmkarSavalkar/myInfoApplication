@@ -43,7 +43,7 @@ const About = () => {
           <p>
             I'm Computer Software Engineer currently living in Pune(Maharashtra,
             India). I had completed my Bachelor's of Computer Engineering degree
-            in 2021 and have strong work experience of 1.7 years as Front end
+            in 2021 and have strong work experience of 1.8 years as Front end
             developer with proven quick learning, logic building and team player
             ability. Achieved Spot Award for best performance in Xoriant(current
             company) and have knowledge of working on web application
