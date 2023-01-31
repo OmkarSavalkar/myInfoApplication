@@ -27,31 +27,28 @@ const Contacts = (props) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(
-      process.env.REACT_APP_SERVICE,
-      process.env.REACT_APP_TEMPLATE,
-      toSend,
-      process.env.REACT_APP_USER
-    );
-
-    send(
-      `${process.env.REACT_APP_SERVICE}`,
-      `${process.env.REACT_APP_TEMPLATE}`,
-      toSend,
-      `${process.env.REACT_APP_USER}`
-    )
-      .then((response) => {
-        openSnackbar("Message sent successfully ! ");
-        setToSend({
-          from_name: "",
-          to_name: "Omkar",
-          message: "",
-          reply_to: "",
+    if (Object.values(toSend).every((item) => item !== "")) {
+      send(
+        `${process.env.REACT_APP_SERVICE}`,
+        `${process.env.REACT_APP_TEMPLATE}`,
+        toSend,
+        `${process.env.REACT_APP_USER}`
+      )
+        .then((response) => {
+          openSnackbar("Message sent successfully ! ");
+          setToSend({
+            from_name: "",
+            to_name: "Omkar",
+            message: "",
+            reply_to: "",
+          });
+        })
+        .catch((err) => {
+          openSnackbar("Something went wrong ! ");
         });
-      })
-      .catch((err) => {
-        openSnackbar("Something went wrong ! ");
-      });
+    } else {
+      openSnackbar("Please enter all fields ! ");
+    }
   };
 
   const handleChange = (e) => {
