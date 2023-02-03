@@ -5,6 +5,11 @@ import asee from "../../../images/asee.png";
 import connectwell from "../../../images/connectwell.png";
 import Modal from "react-modal";
 import { ProjectTitle } from "../../../styledComponents";
+import dashboard from "../../../images/dashboard.gif";
+import restVideo from "../../../images/restVideo.gif";
+// import discussPic from "../../../images/discussPic.PNG";
+// import expertPic from "../../../images/expertPic.PNG";
+// import newsPic from "../../../images/newsPic.PNG";
 
 const customStyles = {
   content: {
@@ -28,6 +33,8 @@ const DisplayProject = (props) => {
 
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
+  // const connectwellImages = [connectwell, discussPic, expertPic, newsPic];
+
   function openModal() {
     setIsOpen(true);
   }
@@ -40,7 +47,7 @@ const DisplayProject = (props) => {
     <>
       <div>
         <img
-          src={data?.image === "asee" ? asee : connectwell}
+          src={data?.image === "asee" ? asee : dashboard}
           alt="project pic"
           className={styles["project-image"]}
         />
@@ -125,9 +132,29 @@ const DisplayProject = (props) => {
           ) : (
             <div>
               <span className={styles["modal-sectionHeading"]}>Link : </span>{" "}
-              Link cannnot be provided since its client project !
+              <span style={{ color: "red" }}>
+                !!! Link and screen video cannnot be provided since its client
+                project !!!
+              </span>
             </div>
           )}
+          <div>
+            <span className={styles["modal-sectionHeading"]}>Video : </span>
+            <div
+              style={{
+                width: "85%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img
+                src={data?.image === "asee" ? asee : restVideo}
+                alt="project pic"
+                className={styles["project-image"]}
+              />
+            </div>
+          </div>
         </div>
       </Modal>
     </>
