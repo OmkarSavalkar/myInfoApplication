@@ -6,6 +6,7 @@ import connectwell from "../../../images/connectwell.png";
 import Modal from "react-modal";
 import { ProjectTitle } from "../../../styledComponents";
 import dashboard from "../../../images/dashboard.gif";
+import tictactoe from "../../../images/Tictactoe.gif";
 import restVideo from "../../../images/restVideo.gif";
 // import discussPic from "../../../images/discussPic.PNG";
 // import expertPic from "../../../images/expertPic.PNG";
@@ -46,11 +47,19 @@ const DisplayProject = (props) => {
   return (
     <>
       <div>
-        <img
-          src={data?.image === "asee" ? asee : dashboard}
-          alt="project pic"
-          className={styles["project-image"]}
-        />
+        {data.image === "tic" ? (
+          <img
+            src={tictactoe}
+            alt="project pic"
+            className={styles["project-image"]}
+          />
+        ) : (
+          <img
+            src={data?.image === "asee" ? asee : dashboard}
+            alt="project pic"
+            className={styles["project-image"]}
+          />
+        )}
       </div>
       <div className={styles["project-description"]}>
         <ProjectTitle>{`${data?.projectName}`.toUpperCase()}</ProjectTitle>
@@ -148,11 +157,19 @@ const DisplayProject = (props) => {
                 alignItems: "center",
               }}
             >
-              <img
-                src={data?.image === "asee" ? asee : restVideo}
-                alt="project pic"
-                className={styles["project-image"]}
-              />
+              {data.image === "tic" ? (
+                <img
+                  src={tictactoe}
+                  alt="project pic"
+                  className={styles["project-image"]}
+                />
+              ) : (
+                <img
+                  src={data?.image === "asee" ? asee : restVideo}
+                  alt="project pic"
+                  className={styles["project-image"]}
+                />
+              )}
             </div>
           </div>
         </div>

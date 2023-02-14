@@ -33,5 +33,14 @@
     ],
     "image": "connectwell",
     "liveLink": "https://connectwell-2022.web.app"
+  },
+  {
+    "projectName": "Tic Tac Toe React Game (self project)",
+    "role": "Frontend React Js Developer",
+    "shortDescription": "🧑🏻‍💻 About React Tic Tac Toe game. 2 player game with unlimited play feature using reset option. carefully designed and implemented considering all corner cases. Has user guide for players not familier with this game",
+    "overviewDescription": "2 player game 'X' and 'O' with unlimited play feature using reset option. Carefully designed and implemented considering all corner cases. Has user guide for players not familier with this game. Informs about the result of the game. Doesn't allow to edit the same boxes. Fun fact is that it can be used instead of coin toss as well to determine who wins and goes first. Enjoy!",
+    "tools": ["React Js", "JavaScript", "CSS"],
+    "image": "tic",
+    "liveLink": "https://github.com/OmkarSavalkar/Tic-Tac-Toe"
   }
 ]
