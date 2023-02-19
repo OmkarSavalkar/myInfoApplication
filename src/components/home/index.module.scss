@@ -132,7 +132,7 @@
 .blob-images1 {
   position: absolute;
   width: 69%;
-  left: 50%;
+  left: 47%;
   top: 4%;
   transition: 0.8s;
   padding: 0;
@@ -144,7 +144,7 @@
 .blob-images2 {
   position: absolute;
   width: 62%;
-  left: 50%;
+  left: 49%;
   top: 6%;
   transition: 0.8s;
   rotate: -8deg;
@@ -213,18 +213,6 @@
     width: 91%;
   }
 }
-
-// @media screen and (max-width: 1200px) {
-//   .blob-Myimages1 {
-//     width: 54%;
-//   }
-//   .blob-images2 {
-//     width: 85%;
-//   }
-//   .blob-images1 {
-//     width: 92%;
-//   }
-// }
 
 @media screen and (max-width: 1215px) {
   .blob-Myimages1 {
