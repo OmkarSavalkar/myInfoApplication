@@ -41,14 +41,14 @@ const About = () => {
         </div>
         <div className={styles["about-profiledescription"]}>
           <p>
-            I'm Computer Software Engineer currently living in Pune(Maharashtra,
-            India). I had completed my Bachelor's of Computer Engineering degree
-            in 2021 and have strong work experience of 1.8 years as Front end
-            developer with proven quick learning, logic building and team player
-            ability. Achieved Spot Award for best performance in Xoriant(current
-            company) and have knowledge of working on web application
-            development projects from scratch during job tenure using frontend
-            react-javascript skills. 😇 <br></br>
+            I'm Computer Software Engineer currently living in Pune (India) and
+            working with Cavista (Axxess). I had completed my Bachelor's of
+            Computer Engineering degree in 2021 and have strong work experience
+            of 1.8 years as Frontend developer with proven quick learning, logic
+            building and team player ability. Achieved Spot Award for best
+            performance in Xoriant(previous company) and have knowledge of
+            working on web application development projects from scratch during
+            job tenure using frontend react-javascript skills. 😇 <br></br>
             <br></br> Recently, I had started seeking for more job opportunities
             in a reputed firm where I can code more, learn new techs, challenge
             myself, and experience a more exciting work culture. <br></br> Feel
