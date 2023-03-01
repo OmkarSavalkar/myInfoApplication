@@ -172,12 +172,12 @@
 
 .blob-Myimages1 {
   position: relative;
-  width: 43%;
+  width: 34%;
   margin-top: 2.5%;
   padding: 0;
   z-index: 2;
   transition: 0.8s;
-  border-radius: 0px 0px 50px 58px;
+  border-radius: 0px 0px 120px 70px;
 }
 .blob-Myimages1:hover {
   cursor: pointer;
@@ -187,12 +187,12 @@
 
 @media screen and (max-width: 1450px) {
   .blob-Myimages1 {
-    width: 46%;
+    width: 36%;
   }
 }
 @media screen and (max-width: 1380px) {
   .blob-Myimages1 {
-    width: 48%;
+    width: 38%;
     margin-top: 3.5%;
   }
   .blob-images2 {
@@ -204,7 +204,7 @@
 }
 @media screen and (max-width: 1280px) {
   .blob-Myimages1 {
-    width: 50%;
+    width: 40%;
   }
   .blob-images2 {
     width: 83%;
@@ -216,7 +216,7 @@
 
 @media screen and (max-width: 1215px) {
   .blob-Myimages1 {
-    width: 53%;
+    width: 43%;
     margin-top: 4.3%;
   }
   .blob-images2 {
@@ -229,7 +229,7 @@
 
 @media screen and (max-width: 1110px) {
   .blob-Myimages1 {
-    width: 59%;
+    width: 48%;
     // width: 58%;
   }
   .blob-images2 {
@@ -245,7 +245,7 @@
     margin-top: 7%;
   }
   .blob-Myimages1 {
-    width: 54%;
+    width: 48%;
     // width: 58%;
   }
   .blob-images2 {
@@ -258,7 +258,7 @@
 
 @media screen and (max-width: 1010px) {
   .blob-Myimages1 {
-    width: 65%;
+    width: 53%;
     margin-top: 3%;
     // width: 60%;
   }
@@ -275,7 +275,7 @@
     padding-top: 5%;
   }
   .blob-Myimages1 {
-    width: 68%;
+    width: 58%;
   }
   .blob-images2 {
     width: 87%;
