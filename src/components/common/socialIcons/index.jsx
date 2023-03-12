@@ -1,4 +1,6 @@
 import React from "react";
+import style from "../../common/socialIcons/index.module.css";
+import { motion } from "framer-motion";
 
 const SocialIcons = (props) => {
   const { icon, tooltip } = props;
@@ -21,9 +23,12 @@ const SocialIcons = (props) => {
         alt="icon pic"
         width={"32px"}
         height={"32px"}
-        style={{ margin: "15px 30px 20px 0px", cursor: "pointer" }}
+        className={style["logoStyle"]}
         title={tooltip}
         onClick={() => openUrl(tooltip)}
+        // whileHover={{ scale: 1.2, rotate: 360 }}
+        // transition={{ ease: "linear", duration: 2, repeat: Infinity }}
+        // whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
       />
     </>
   );

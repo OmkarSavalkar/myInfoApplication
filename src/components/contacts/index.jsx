@@ -72,7 +72,7 @@ const Contacts = (props) => {
         <p type="Name:">
           <input
             className={styles["input-styles"]}
-            placeholder="Write your name here.."
+            placeholder="Write your name here..."
             name="from_name"
             value={toSend.from_name}
             onChange={handleChange}
@@ -81,7 +81,7 @@ const Contacts = (props) => {
         <p type="Email:">
           <input
             className={styles["input-styles"]}
-            placeholder="Let me to contact you back.."
+            placeholder="Let me to contact you back..."
             name="reply_to"
             value={toSend.reply_to}
             onChange={handleChange}
@@ -93,7 +93,7 @@ const Contacts = (props) => {
             name="message"
             value={toSend.message}
             onChange={handleChange}
-            placeholder="What would you like to tell me.."
+            placeholder="What would you like to tell me..."
             rows="5"
             cols="30"
           ></textarea>

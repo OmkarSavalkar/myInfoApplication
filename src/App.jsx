@@ -13,14 +13,24 @@ import Contacts from "./components/contacts";
 import Footer from "./components/footer";
 import { BodyBackground } from "./styledComponents";
 import { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 function App() {
   const [lightMode, setLightMode] = useState(false);
   const [openMsg, setOpenMsg] = useState(false);
+  const [seed, setSeed] = useState(false);
 
   useEffect(() => {
     setOpenMsg(true);
   }, []);
+
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
+
+  useEffect(() => {
+    setSeed(!seed);
+  }, [inView.toString()]);
 
   return (
     <div className="App">
@@ -43,7 +53,9 @@ function App() {
               <About lightMode={lightMode} />
             </FullpageSection>
             <FullpageSection className="pageSection">
-              <Skills lightMode={lightMode} />
+              <div ref={ref}>
+                <Skills lightMode={lightMode} key={seed} />
+              </div>
             </FullpageSection>
             <FullpageSection className="pageSection">
               <Projects lightMode={lightMode} />

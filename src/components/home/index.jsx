@@ -7,6 +7,7 @@ import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 import ScrollIndicator from "../common/scrollIndicator";
 import { StyledButton } from "../../styledComponents";
 import Modal from "react-modal";
+import Typed from "react-typed";
 
 const customStyles = {
   content: {
@@ -65,7 +66,14 @@ const Home = (props) => {
               {"Front End Developer".toUpperCase()}
             </span>
             <div className={styles["main-name"]}>
-              <span className={styles["wave"]}>👋 </span>Hey, I'm Omkar Savalkar
+              <span className={styles["wave"]}>👋 </span>Hey, I'm
+              <Typed
+                strings={["  Omkar Savalkar"]}
+                typeSpeed={150}
+                backSpeed={150}
+                backDelay={3000}
+                loop
+              />
               <div className={styles["main-shortdescription"]}>
                 A Frontend focused Web Developer who enjoys building the
                 frontend of everything from small business websites to rich
