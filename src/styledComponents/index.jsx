@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import back from "../images/back.jpg";
+import back from "../images/back1.jpg";
 import darkback from "../images/backDark.jpg";
 
 export const BodyBackground = styled.div`
@@ -9,7 +9,7 @@ export const BodyBackground = styled.div`
   // background-image: linear-gradient(45deg, #23a88e, #dae65f);
   background-attachment: fixed;
   background-size: cover;
-  transition: 2s;
+  transition: 3s;
 `;
 
 export const StyledButton = styled.button`
@@ -18,7 +18,7 @@ export const StyledButton = styled.button`
   background-color: transparent;
   font-size: 1.1rem;
   color: aqua;
-  border: 3px solid aqua;
+  border: 3px solid yellow;
   border-radius: 15px;
   cursor: pointer;
   text-decoration: none !important ;
@@ -26,10 +26,11 @@ export const StyledButton = styled.button`
     margin-left: 10px;
   }
   &:hover {
-    border: 2px solid yellow;
+    border: 2px solid aqua;
+    color: yellow;
     text-decoration: none !important;
     i {
-      color: white;
+      color: yellow;
     }
   }
 `;
@@ -51,7 +52,8 @@ export const SectionSubTitle = styled.span`
 `;
 
 export const ProjectTitle = styled.span`
-  color: #ffff80;
+  // color: #ffff80;
+  color: yellow;
   font-size: 1.05rem;
   font-weight: 400;
 `;

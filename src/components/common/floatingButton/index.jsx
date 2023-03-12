@@ -92,7 +92,7 @@ const FloatingButton = (props) => {
         top={"12px"}
         left={"83%"}
         direction={direction}
-        backgroundColor={"aqua"}
+        backgroundColor={"pink"}
         buttonColor="white"
       />
     </div>
