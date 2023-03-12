@@ -2,15 +2,11 @@ import React from "react";
 import styles from "../displayProjects/index.module.scss";
 import { StyledButton } from "../../../styledComponents";
 import asee from "../../../images/asee.png";
-import connectwell from "../../../images/connectwell.png";
 import Modal from "react-modal";
 import { ProjectTitle } from "../../../styledComponents";
 import dashboard from "../../../images/dashboard.gif";
 import tictactoe from "../../../images/Tictactoe.gif";
 import restVideo from "../../../images/restVideo.gif";
-// import discussPic from "../../../images/discussPic.PNG";
-// import expertPic from "../../../images/expertPic.PNG";
-// import newsPic from "../../../images/newsPic.PNG";
 
 const customStyles = {
   content: {

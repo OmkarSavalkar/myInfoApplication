@@ -47,7 +47,7 @@ const Home = (props) => {
       openModal();
       setTimeout(() => {
         setIsOpen(false);
-      }, 8000);
+      }, 7000);
     }
   }, [openMsg]);
 
@@ -132,8 +132,8 @@ const Home = (props) => {
               color: "black",
             }}
           >
-            📌 Please scroll a bit more for next section as indicated by scroll
-            bar (right side) since few sections are lenghty.{" "}
+            📌 Scroll lightly OR directly jump to any section by clicking on
+            navigation dots(right side).{" "}
             <span style={{ fontWeight: "bold" }}>Thank you!</span>
             <br></br>
             <br></br>

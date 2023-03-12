@@ -4,6 +4,19 @@ import styles from "../skills/index.module.scss";
 import skillData from "../../JSON/skill_Icon_JSON.json";
 import ScrollIndicator from "../common/scrollIndicator";
 import SectionTitleComponent from "../common/sectionTitle";
+import { motion } from "framer-motion";
+
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2,
+    },
+  },
+};
 
 const Skills = (props) => {
   const { lightMode } = props;
@@ -16,7 +29,12 @@ const Skills = (props) => {
         }
         lightMode={lightMode}
       />
-      <div className={styles["flex-container"]}>
+      <motion.div
+        className={styles["flex-container"]}
+        variants={container}
+        initial="hidden"
+        animate="visible"
+      >
         {skillData &&
           skillData.map((item, index) => {
             return (
@@ -29,7 +47,7 @@ const Skills = (props) => {
               />
             );
           })}
-      </div>
+      </motion.div>
       <ScrollIndicator />
     </div>
   );
