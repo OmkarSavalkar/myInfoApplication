@@ -53,17 +53,17 @@ const About = () => {
               backDelay={1500}
               loop
             />{" "}
-            (Axxess). I had completed my Bachelor's of Computer Engineering
-            degree in 2021 and have strong work experience of 1.8 years as
-            Frontend developer with proven quick learning, logic building and
-            team player ability. Achieved Spot Award for best performance in
+            (Axxess). I earned a Bachelor's degree in Computer Engineering in
+            2021, and I have 1.8 years of solid work experience as a Frontend
+            developer with proven quick learning, logic building and team player
+            ability. Achieved Spot Award for best performance in
             Xoriant(previous company) and have knowledge of working on web
             application development projects from scratch during job tenure
             using frontend react-javascript skills. 😇 <br></br>
             <br></br> Recently, I had started seeking for more job opportunities
             in a reputed firm where I can code more, learn new techs, challenge
             myself, and experience a more exciting work culture. <br></br> Feel
-            free to Connect me on{" "}
+            free to Connect with me on{" "}
             <a
               href="https://www.linkedin.com/in/omkar-savalkar"
               target="_blank"
