@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import back from "../images/back1.jpg";
+import back from "../images/back5.png";
 import darkback from "../images/backDark.jpg";
 
 export const BodyBackground = styled.div`

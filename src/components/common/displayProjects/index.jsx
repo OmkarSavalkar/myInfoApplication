@@ -20,8 +20,8 @@ const customStyles = {
     transform: "translate(-60%, -50%)",
     overflow: "auto",
     borderRadius: "20px",
-    backgroundColor: "#dbdbdb",
-    border: "1px solid black",
+    backgroundColor: "#bdbdbd",
+    border: "2px solid black",
   },
 };
 
@@ -82,7 +82,7 @@ const DisplayProject = (props) => {
           style={{ float: "right", cursor: "pointer" }}
           onClick={closeModal}
         />
-        <p style={{ fontSize: "0.9rem", color: "gray" }}>
+        <p style={{ fontSize: "0.9rem", color: "#424242" }}>
           Here you will get all information about this project which includes my
           Role, Technology Stack, Project Overview and links of self projects
         </p>
@@ -126,7 +126,7 @@ const DisplayProject = (props) => {
                   <a
                     href={data?.liveLink}
                     target={"_blank"}
-                    style={{ color: "gray" }}
+                    style={{ color: "#424242" }}
                     rel="noreferrer"
                   >
                     {data?.liveLink}

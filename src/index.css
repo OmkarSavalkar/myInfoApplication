@@ -20,19 +20,19 @@ body::-webkit-scrollbar {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px rgb(97, 97, 97);
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: gray;
+  background: rgb(106, 106, 106);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #595959;
+  background: #4f4f4f;
 }
 
 code {

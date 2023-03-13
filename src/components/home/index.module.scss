@@ -117,10 +117,10 @@
   cursor: pointer;
   transition: 2s;
   .blob-images1 {
-    width: 58%;
+    width: 60%;
   }
   .blob-images2 {
-    width: 50%;
+    width: 52%;
   }
 }
 
@@ -131,7 +131,7 @@
 
 .blob-images1 {
   position: absolute;
-  width: 62%;
+  width: 64%;
   left: 47%;
   top: 4%;
   transition: 0.8s;
@@ -143,9 +143,9 @@
 
 .blob-images2 {
   position: absolute;
-  width: 55%;
+  width: 57%;
   left: 49%;
-  top: 6%;
+  top: 9%;
   transition: 0.8s;
   rotate: -8deg;
   -webkit-animation: blob-images2-Animate 1.5s infinite alternate;
