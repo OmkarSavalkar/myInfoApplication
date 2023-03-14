@@ -117,10 +117,10 @@
   cursor: pointer;
   transition: 2s;
   .blob-images1 {
-    width: 60%;
+    width: 58%;
   }
   .blob-images2 {
-    width: 52%;
+    width: 50%;
   }
 }
 
@@ -131,7 +131,7 @@
 
 .blob-images1 {
   position: absolute;
-  width: 64%;
+  width: 62%;
   left: 47%;
   top: 4%;
   transition: 0.8s;
@@ -143,7 +143,7 @@
 
 .blob-images2 {
   position: absolute;
-  width: 57%;
+  width: 55%;
   left: 49%;
   top: 9%;
   transition: 0.8s;
@@ -177,7 +177,7 @@
   padding: 0;
   z-index: 2;
   transition: 0.8s;
-  border-radius: 0px 0px 120px 70px;
+  border-radius: 0px 0px 130px 80px;
 }
 .blob-Myimages1:hover {
   cursor: pointer;
