@@ -48,7 +48,7 @@ const Home = (props) => {
       openModal();
       setTimeout(() => {
         setIsOpen(false);
-      }, 7000);
+      }, 8800);
     }
   }, [openMsg]);
 
@@ -141,7 +141,8 @@ const Home = (props) => {
             }}
           >
             📌 Scroll lightly OR directly jump to any section by clicking on
-            navigation dots(right side).{" "}
+            navigation dots(right side).
+            <br /> 📌 Increase brightness for better experience <br />
             <span style={{ fontWeight: "bold" }}>Thank you!</span>
             <br></br>
             <br></br>
