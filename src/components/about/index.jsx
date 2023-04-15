@@ -54,7 +54,7 @@ const About = () => {
               loop
             />{" "}
             (Axxess). I earned a Bachelor's degree in Computer Engineering in
-            2021, and I have 1.8 years of solid work experience as a Frontend
+            2021, and I have 1.10 years of solid work experience as a Frontend
             developer with proven quick learning, logic building and team player
             ability. Achieved Spot Award for best performance in
             Xoriant(previous company) and have knowledge of working on web
