@@ -56,3 +56,40 @@
     overflow: auto;
   }
 }
+
+.cursor {
+  z-index: 999;
+  position: fixed;
+  background: #2696e8;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0 0 8px 8px #2696e8, 0 0 10px 10px #2696e8, 0 0 12px #2696e8;
+  animation: colors 1s infinite;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+@keyframes colors {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(180deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.cursor:before {
+  content: "";
+  position: absolute;
+  background: #2696e8;
+  width: 45px;
+  height: 50px;
+  opacity: 0.1;
+  transform: translate(-30%, -25%);
+  border-radius: 50%;
+}

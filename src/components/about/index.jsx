@@ -43,8 +43,8 @@ const About = () => {
         </div>
         <div className={styles["about-profiledescription"]}>
           <p>
-            I'm Computer Software Engineer currently living in Pune (India) and
-            working with{" "}
+            I'm Software Engineer currently living in Pune (India) and working
+            with{" "}
             <Typed
               style={{ color: "yellow" }}
               strings={[" Cavista"]}
@@ -54,7 +54,7 @@ const About = () => {
               loop
             />{" "}
             (Axxess). I earned a Bachelor's degree in Computer Engineering in
-            2021, and I have 1.10 years of solid work experience as a Frontend
+            2021, and have 2 years of solid work experience as a Frontend
             developer with proven quick learning, logic building and team player
             ability. Achieved Spot Award for best performance in
             Xoriant(previous company) and have knowledge of working on web
