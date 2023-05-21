@@ -6,6 +6,12 @@
     "iconUrl": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
   },
   {
+    "skillName": "Vue",
+    "skillRating": 70,
+    "barColor": "#41b181",
+    "iconUrl": "https://play.vuejs.org/logo.svg"
+  },
+  {
     "skillName": "JavaScript",
     "skillRating": 90,
     "barColor": "yellow",
@@ -30,16 +36,16 @@
     "iconUrl": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
   },
   {
-    "skillName": "Node Js",
-    "skillRating": 50,
-    "barColor": "#6bc045",
-    "iconUrl": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
-  },
-  {
     "skillName": "Next Js",
     "skillRating": 60,
     "barColor": "#74d4cf",
     "iconUrl": "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
+  },
+  {
+    "skillName": "SASS",
+    "skillRating": 70,
+    "barColor": "#F3A1F0",
+    "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/512px-Sass_Logo_Color.svg.png?20150315202757"
   },
   {
     "skillName": "HTML 5",
@@ -52,11 +58,5 @@
     "skillRating": 80,
     "barColor": "blue",
     "iconUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-  },
-  {
-    "skillName": "SASS",
-    "skillRating": 70,
-    "barColor": "#F3A1F0",
-    "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/512px-Sass_Logo_Color.svg.png?20150315202757"
   }
 ]
