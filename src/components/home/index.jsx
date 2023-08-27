@@ -141,6 +141,7 @@ const Home = (props) => {
           >
             <p style={{ margin: "0 auto" }}>Welcome To My Digital Space</p>
             <br /> 📌 Increase brightness for better experience <br />
+            <br /> 📌 Light and Dark mode available on top-right <br />
             <br></br>
             <span style={{ fontWeight: "bold" }}>Thank you!</span>
           </p>

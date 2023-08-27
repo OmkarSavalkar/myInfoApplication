@@ -9,7 +9,7 @@ export const BodyBackground = styled.div`
   // background-image: linear-gradient(45deg, #23a88e, #dae65f);
   background-attachment: fixed;
   background-size: cover;
-  transition: 3s;
+  transition: 5s;
 `;
 
 export const StyledButton = styled.button`
