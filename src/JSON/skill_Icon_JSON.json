@@ -7,7 +7,7 @@
   },
   {
     "skillName": "Vue",
-    "skillRating": 70,
+    "skillRating": 60,
     "barColor": "#41b181",
     "iconUrl": "https://play.vuejs.org/logo.svg"
   },
@@ -19,13 +19,13 @@
   },
   {
     "skillName": "TypeScript",
-    "skillRating": 85,
+    "skillRating": 90,
     "barColor": "#1677c7",
     "iconUrl": "https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png"
   },
   {
     "skillName": "Redux",
-    "skillRating": 60,
+    "skillRating": 50,
     "barColor": "#764abc",
     "iconUrl": "https://cdn.worldvectorlogo.com/logos/redux.svg"
   },
@@ -37,7 +37,7 @@
   },
   {
     "skillName": "Next Js",
-    "skillRating": 60,
+    "skillRating": 80,
     "barColor": "#74d4cf",
     "iconUrl": "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
   },

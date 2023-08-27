@@ -47,7 +47,7 @@ export const SectionTitle = styled.h3`
 export const SectionSubTitle = styled.span`
   color: aqua;
   font-family: cursive;
-  margin: 0px 15px 0px 10px;
+  margin: 0 2% 0 2%;
   font-size: 1.07rem;
 `;
 

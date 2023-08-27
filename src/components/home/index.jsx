@@ -11,7 +11,7 @@ import Typed from "react-typed";
 
 const customStyles = {
   content: {
-    width: "55%",
+    width: "30%",
     height: "25%",
     top: "50%",
     left: "56%",
@@ -48,7 +48,7 @@ const Home = (props) => {
       openModal();
       setTimeout(() => {
         setIsOpen(false);
-      }, 8800);
+      }, 7000);
     }
   }, [openMsg]);
 
@@ -62,8 +62,7 @@ const Home = (props) => {
         <div className={styles["main-subdiv1"]}>
           <div className={styles["main-role"]}>
             <span style={{ color: mode ? "yelow" : "aqua" }}>
-              {" "}
-              {"Front End Developer".toUpperCase()}
+              FRONTEND DEVELOPER
             </span>
             <div className={styles["main-name"]}>
               <span className={styles["wave"]}>👋 </span>Hey, I'm
@@ -122,8 +121,8 @@ const Home = (props) => {
         <img
           src={"https://cdn-icons-png.flaticon.com/512/5369/5369422.png"}
           alt="close"
-          width="40px"
-          height="40px"
+          width="38px"
+          height="38px"
           style={{ float: "right", cursor: "pointer" }}
           onClick={closeModal}
         />
@@ -136,17 +135,14 @@ const Home = (props) => {
         >
           <p
             style={{
-              fontSize: "1.2rem",
+              fontSize: "1.1rem",
               color: "black",
             }}
           >
-            📌 Scroll lightly OR directly jump to any section by clicking on
-            navigation dots(right side).
+            <p style={{ margin: "0 auto" }}>Welcome To My Digital Space</p>
             <br /> 📌 Increase brightness for better experience <br />
+            <br></br>
             <span style={{ fontWeight: "bold" }}>Thank you!</span>
-            <br></br>
-            <br></br>
-            Refresh to see again
           </p>
         </div>
       </Modal>

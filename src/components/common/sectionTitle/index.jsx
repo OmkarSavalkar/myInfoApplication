@@ -19,14 +19,15 @@ const SectionTitleComponent = (props) => {
             <img
               src={seperatorImage}
               alt="seperator icon"
-              style={{ width: "6%" }}
+              style={{ width: "5%" }}
             />{" "}
             {sectionTitle}
             <img
               src={seperatorImage}
               alt="seperator icon"
               style={{
-                width: "6%",
+                width: "5%",
+                marginLeft: "0.5%",
               }}
             />{" "}
           </SectionTitle>

@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
       <hr
         style={{
-          width: "85%",
+          width: "90%",
           marginLeft: "auto",
           marginRight: "auto",
         }}

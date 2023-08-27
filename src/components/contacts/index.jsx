@@ -60,7 +60,7 @@ const Contacts = (props) => {
       <SectionTitleComponent
         sectionTitle="Contact"
         sectionDescription={
-          "My inbox is always open and I'm looking for job opportunities. Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
+          "My inbox is always open and I'm looking for job opportunities also your insights and feedback regarding this portfolio are encouraged. Feel free to contact me by submitting the form below and I will get back to you as soon as possible."
         }
         contactsSection={true}
         lightMode={lightMode}
@@ -81,7 +81,7 @@ const Contacts = (props) => {
         <p type="Email:">
           <input
             className={styles["input-styles"]}
-            placeholder="Let me to contact you back..."
+            placeholder="Let me know to contact you back..."
             name="reply_to"
             value={toSend.reply_to}
             onChange={handleChange}

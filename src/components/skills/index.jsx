@@ -12,8 +12,8 @@ const container = {
     opacity: 1,
     scale: 1,
     transition: {
-      delayChildren: 0.3,
-      staggerChildren: 0.2,
+      delayChildren: 0.5,
+      staggerChildren: 0.5,
     },
   },
 };
@@ -25,7 +25,7 @@ const Skills = (props) => {
       <SectionTitleComponent
         sectionTitle="Skills"
         sectionDescription={
-          "My current skills in terms of programming and technology primarily focused on front end"
+          "Showcasing my technological palette in terms of Frontend"
         }
         lightMode={lightMode}
       />

@@ -4,7 +4,6 @@ import myAvatar from "../../images/mypic1.jpg";
 import SocialIcons from "../common/socialIcons";
 import EmployerCarousel from "./employerCarousel";
 import SectionTitleComponent from "../common/sectionTitle";
-import Typed from "react-typed";
 
 const About = () => {
   return (
@@ -12,7 +11,7 @@ const About = () => {
       <div className={styles["about"]}>
         <SectionTitleComponent
           sectionTitle="About"
-          sectionDescription={"Here you will get to know me"}
+          sectionDescription={"Unveiling the Person Behind the Pixels"}
         />
       </div>
       <div className={styles["about-grid"]}>
@@ -43,41 +42,33 @@ const About = () => {
         </div>
         <div className={styles["about-profiledescription"]}>
           <p>
-            I'm Software Engineer currently living in Pune (India) and working
-            with Cavista (Axxess). I earned a Bachelor's degree in Computer
-            Engineering in 2021, and have 2 years of solid work experience as a
-            Frontend developer with proven quick learning, logic building and
-            team player ability. Achieved Spot Award for best performance in
-            Xoriant(previous company) and have knowledge of working on web
-            application development projects from scratch during job tenure
-            using frontend react-javascript skills. 😇 <br></br>
-            <br></br> Recently, I had started seeking for more job opportunities
-            in a reputed firm where I can code more, learn new techs, challenge
-            myself, and experience a more exciting work culture. <br></br> Feel
-            free to Connect with me on{" "}
+            😇 I am a passionate Software Engineer based in Pune India,
+            currently amplifying digital excellence at Cavista (Axxess). Armed
+            with a Computer Engineering degree (2021) and 2 prolific years as a
+            Frontend developer (React & Vue), even clinching the prestigious
+            Xoriant Spot Award. My journey melds creativity and logic, sculpting
+            web applications from mere ideas and designs. As an avid seeker of
+            innovation, I'm on the prowl for a stage that nurtures new
+            challenges and fuels exponential growth. Delving deeper into
+            coding's symphony, mastering emerging tech with frontend skills is
+            my call.
+            <br></br>
+            <br></br>I'm Eager to reshape the digital realm, let's connect on{" "}
             <a
               href="https://www.linkedin.com/in/omkar-savalkar"
               target="_blank"
               style={{ color: "yellow", paddingRight: "4px" }}
               rel="noreferrer"
             >
-              <Typed
-                style={{ color: "yellow" }}
-                strings={[" Linkedin"]}
-                typeSpeed={150}
-                backSpeed={150}
-                backDelay={1500}
-                loop
-              />
+              Linkedin
             </a>
+            💻🚀
           </p>
         </div>
       </div>
       <div>
         <SectionTitleComponent
-          sectionDescription={
-            "Contributed in growth of following reputed companies"
-          }
+          sectionDescription={"Contributed in growth of following companies"}
         />
         <div style={{ margin: "5px 50px 20px 50px" }}>
           <EmployerCarousel />

@@ -1,14 +1,22 @@
-.carousel-logos {
+.carouselXoriant-logos {
   width: 40%;
-  padding: 12px 0px;
+  margin-top: 8%;
 }
 
 .carouselCavista-logos {
   width: 40%;
   background-color: white;
-  margin-top: 6%;
+  margin-top: 7%;
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+
+.carouselCHealByUS-logos {
+  width: 38%;
+  background-color: white;
+  margin-top: 4%;
+  padding: 1px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 1200px) {

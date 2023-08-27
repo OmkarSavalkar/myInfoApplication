@@ -10,7 +10,7 @@ const EmployerCarousel = () => {
       gap={10}
       loop={true}
       showDots={true}
-      autoplay={2800}
+      autoplay={4000}
       dotColorActive={"yellow"}
       mobileBreakpoint={675}
     >
@@ -25,21 +25,21 @@ const EmployerCarousel = () => {
         <img
           src="https://www.xoriant.com/cdn/ff/h8j4-N1kFokMkyOEiHIQVjpbRE5vP8EOCe4cCjK-sP4/1618405020/public/Xoriant-Logo.png"
           alt="company logo"
-          className={styles["carousel-logos"]}
+          className={styles["carouselXoriant-logos"]}
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHtG79d_4y0qpfGQ9paI10oKd_ZCYUfea9_A&usqp=CAU"
           alt="company logo"
-          className={styles["carouselCavista-logos"]}
+          className={styles["carouselCHealByUS-logos"]}
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           src="https://www.xoriant.com/cdn/ff/h8j4-N1kFokMkyOEiHIQVjpbRE5vP8EOCe4cCjK-sP4/1618405020/public/Xoriant-Logo.png"
           alt="company logo"
-          className={styles["carousel-logos"]}
+          className={styles["carouselXoriant-logos"]}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -53,7 +53,7 @@ const EmployerCarousel = () => {
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHtG79d_4y0qpfGQ9paI10oKd_ZCYUfea9_A&usqp=CAU"
           alt="company healby us logo"
-          className={styles["carouselCavista-logos"]}
+          className={styles["carouselCHealByUS-logos"]}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -67,14 +67,14 @@ const EmployerCarousel = () => {
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHtG79d_4y0qpfGQ9paI10oKd_ZCYUfea9_A&usqp=CAU"
           alt="company logo"
-          className={styles["carouselCavista-logos"]}
+          className={styles["carouselCHealByUS-logos"]}
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           src="https://www.xoriant.com/cdn/ff/h8j4-N1kFokMkyOEiHIQVjpbRE5vP8EOCe4cCjK-sP4/1618405020/public/Xoriant-Logo.png"
           alt="company logo"
-          className={styles["carousel-logos"]}
+          className={styles["carouselXoriant-logos"]}
         />
       </Carousel.Item>
     </Carousel>

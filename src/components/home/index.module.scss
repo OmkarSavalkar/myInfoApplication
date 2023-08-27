@@ -29,7 +29,7 @@
 .main-name {
   text-align: center;
   color: white;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
@@ -117,10 +117,10 @@
   cursor: pointer;
   transition: 2s;
   .blob-images1 {
-    width: 58%;
+    width: 54%;
   }
   .blob-images2 {
-    width: 50%;
+    width: 46%;
   }
 }
 
@@ -131,7 +131,7 @@
 
 .blob-images1 {
   position: absolute;
-  width: 62%;
+  width: 58%;
   left: 47%;
   top: 4%;
   transition: 0.8s;
@@ -143,7 +143,7 @@
 
 .blob-images2 {
   position: absolute;
-  width: 55%;
+  width: 51%;
   left: 49%;
   top: 9%;
   transition: 0.8s;
