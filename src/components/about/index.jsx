@@ -10,7 +10,7 @@ const About = () => {
     <div id="aboutId" style={{ position: "relative", top: 2 }}>
       <div className={styles["about"]}>
         <SectionTitleComponent
-          sectionTitle="About"
+          sectionTitle="About Me"
           sectionDescription={"Unveiling the Person Behind the Pixels"}
         />
       </div>
