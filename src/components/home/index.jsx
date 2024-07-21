@@ -48,7 +48,7 @@ const Home = (props) => {
       openModal();
       setTimeout(() => {
         setIsOpen(false);
-      }, 7000);
+      }, 6000);
     }
   }, [openMsg]);
 
@@ -139,7 +139,7 @@ const Home = (props) => {
               color: "black",
             }}
           >
-            <p style={{ margin: "0 auto" }}>Welcome To My Digital Space</p>
+            <p style={{ margin: "0 auto" }}>Welcome</p>
             <br /> 📌 Increase brightness for better experience <br />
             <br /> 📌 Light and Dark mode available on top-right <br />
             <br></br>

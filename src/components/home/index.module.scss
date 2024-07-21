@@ -111,16 +111,17 @@
   margin-right: 2px;
   position: relative;
   flex: 1;
+  margin-top: 4%;
   padding-bottom: 0;
 }
 .main-subdiv2:hover {
   cursor: pointer;
   transition: 2s;
   .blob-images1 {
-    width: 54%;
+    width: 48%;
   }
   .blob-images2 {
-    width: 46%;
+    width: 40%;
   }
 }
 
@@ -131,7 +132,7 @@
 
 .blob-images1 {
   position: absolute;
-  width: 58%;
+  width: 56%;
   left: 47%;
   top: 4%;
   transition: 0.8s;
@@ -143,7 +144,7 @@
 
 .blob-images2 {
   position: absolute;
-  width: 51%;
+  width: 49%;
   left: 49%;
   top: 9%;
   transition: 0.8s;
@@ -172,7 +173,7 @@
 
 .blob-Myimages1 {
   position: relative;
-  width: 34%;
+  width: 33%;
   margin-top: 2.5%;
   padding: 0;
   z-index: 2;

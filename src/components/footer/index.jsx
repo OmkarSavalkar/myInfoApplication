@@ -23,10 +23,6 @@ const Footer = () => {
           omkarsavalkar22@gmail.com
         </div>
         <div className={styles["footer-contactInfo"]}>
-          <i className="fa fa-phone" style={{ marginRight: "5px" }} />
-          +91-9766112890
-        </div>
-        <div className={styles["footer-contactInfo"]}>
           <i className="fa fa-github" style={{ marginRight: "5px" }} />
           <a
             href="https://github.com/OmkarSavalkar"

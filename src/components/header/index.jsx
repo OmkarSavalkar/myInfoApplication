@@ -17,8 +17,8 @@ const Header = (props) => {
               "This portfolio is created using React Js, JavaScript, CSS-SASS, Styled-Components"
             }
           >
-            <span className={styles["header-nameSpan"]}>Omkar Savalkar </span>
-            <span className={styles["header-nameSpanArrow"]}>{`>>>`}</span>
+            {/* <span className={styles["header-nameSpan"]}>Omkar Savalkar </span>
+            <span className={styles["header-nameSpanArrow"]}>{`>>>`}</span> */}
           </a>
           <div className={styles["topnav-right"]}>
             <FloatingButton fromHeader={true} />

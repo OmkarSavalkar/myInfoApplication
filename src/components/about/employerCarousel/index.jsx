@@ -30,7 +30,7 @@ const EmployerCarousel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHtG79d_4y0qpfGQ9paI10oKd_ZCYUfea9_A&usqp=CAU"
+          src="https://media.licdn.com/dms/image/C4D0BAQHzb1D5FFOz5Q/company-logo_200_200/0/1630572999730?e=1729728000&v=beta&t=pF_TQSem0VDAc2oXgThBJgZnRWMuElkPiy5lxMJYMGs"
           alt="company logo"
           className={styles["carouselCHealByUS-logos"]}
         />
@@ -51,8 +51,8 @@ const EmployerCarousel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHtG79d_4y0qpfGQ9paI10oKd_ZCYUfea9_A&usqp=CAU"
-          alt="company healby us logo"
+          src="https://media.licdn.com/dms/image/C4D0BAQHzb1D5FFOz5Q/company-logo_200_200/0/1630572999730?e=1729728000&v=beta&t=pF_TQSem0VDAc2oXgThBJgZnRWMuElkPiy5lxMJYMGs"
+          alt="company logo"
           className={styles["carouselCHealByUS-logos"]}
         />
       </Carousel.Item>
@@ -65,7 +65,7 @@ const EmployerCarousel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHtG79d_4y0qpfGQ9paI10oKd_ZCYUfea9_A&usqp=CAU"
+          src="https://media.licdn.com/dms/image/C4D0BAQHzb1D5FFOz5Q/company-logo_200_200/0/1630572999730?e=1729728000&v=beta&t=pF_TQSem0VDAc2oXgThBJgZnRWMuElkPiy5lxMJYMGs"
           alt="company logo"
           className={styles["carouselCHealByUS-logos"]}
         />

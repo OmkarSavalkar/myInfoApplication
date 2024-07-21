@@ -26,10 +26,6 @@ const About = () => {
               tooltip="Instagram"
             />
             <SocialIcons
-              icon="https://cdn-icons-png.flaticon.com/512/5321/5321274.png"
-              tooltip="Gmail"
-            />
-            <SocialIcons
               icon="https://cdn-icons-png.flaticon.com/512/1051/1051275.png"
               tooltip="GitHub"
             />
@@ -42,18 +38,16 @@ const About = () => {
         </div>
         <div className={styles["about-profiledescription"]}>
           <p>
-            😇 I am a passionate Software Engineer based in Pune India,
-            currently amplifying digital excellence at Cavista (Axxess). Armed
-            with a Computer Engineering degree (2021) and 2.5 prolific years as
-            a Frontend developer (React & Vue), even clinching the prestigious
-            Xoriant Spot Award. My journey melds creativity and logic, sculpting
-            web applications from mere ideas and designs. As an avid seeker of
-            innovation, I'm on the prowl for a stage that nurtures new
-            challenges and fuels exponential growth. Delving deeper into
-            coding's symphony, mastering emerging tech with frontend skills is
-            my call.
+            😇 I am a passionate Software Engineer based in Pune, India, driving
+            digital excellence at Cavista (Axxess). With a Computer Engineering
+            degree (2021) and around 3 years of experience as a Frontend
+            Developer in React and Vue. I've even earned the Xoriant Spot Award.
+            My journey blends creativity and logic, turning ideas into dynamic
+            web applications. I'm constantly seeking innovation and new
+            challenges to fuel my growth.
             <br></br>
-            <br></br>I'm Eager to reshape the digital realm, let's connect on{" "}
+            <br></br>
+            <br></br>let's connect on{" "}
             <a
               href="https://www.linkedin.com/in/omkar-savalkar"
               target="_blank"
@@ -62,13 +56,13 @@ const About = () => {
             >
               Linkedin
             </a>
-            💻🚀
+            💻🚀 and work together
           </p>
         </div>
       </div>
       <div>
         <SectionTitleComponent
-          sectionDescription={"Contributed in growth of following companies"}
+          sectionDescription={"Companies I've Worked With"}
         />
         <div style={{ margin: "5px 50px 20px 50px" }}>
           <EmployerCarousel />

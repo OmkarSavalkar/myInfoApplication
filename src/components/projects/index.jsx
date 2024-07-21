@@ -34,7 +34,7 @@ const Projects = (props) => {
             alt="star emoji"
             style={{ marginRight: "4px" }}
           />
-          ( This portfolio is also a Responsive web-application (self project)
+          ( This portfolio is also a Responsive web-application (self made)
           developed using React Js, JavaScript, SASS-CSS, Styled-Components )
           <img
             src="data:image/png;base64,R0lGODlhDwAPAKIHAP9mAP/MAMxmAP+ZAP//AMyZAP+ZM////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFMgAHACwAAAAADwAPAAADKni63P7wiNgmVaJYKsyuQlgYWvhJo6GSJ5ax7dKNsaxpUTbpUCjXl+AiAQAh+QQFMgAHACwAAAAADwAPAAADQHi6B8yDAeJWVLXRlSUJQfc0YDgC6FQOqTMRcBnAMNsMcm5jeB7snI8M2ND8ADibI6JSfmyXCVDaSWEwqJFFmwAAOw=="

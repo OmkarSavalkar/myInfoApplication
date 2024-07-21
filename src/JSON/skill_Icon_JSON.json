@@ -30,18 +30,6 @@
     "iconUrl": "https://cdn.worldvectorlogo.com/logos/redux.svg"
   },
   {
-    "skillName": "Material UI",
-    "skillRating": 90,
-    "barColor": "#00b0ff",
-    "iconUrl": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
-  },
-  {
-    "skillName": "Next Js",
-    "skillRating": 80,
-    "barColor": "#74d4cf",
-    "iconUrl": "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
-  },
-  {
     "skillName": "SASS",
     "skillRating": 70,
     "barColor": "#F3A1F0",
@@ -49,7 +37,7 @@
   },
   {
     "skillName": "HTML 5",
-    "skillRating": 88,
+    "skillRating": 100,
     "barColor": "orange",
     "iconUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
   },
@@ -58,5 +46,17 @@
     "skillRating": 80,
     "barColor": "blue",
     "iconUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+  },
+  {
+    "skillName": "Material UI",
+    "skillRating": 90,
+    "barColor": "#00b0ff",
+    "iconUrl": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+  },
+  {
+    "skillName": "Next Js",
+    "skillRating": 65,
+    "barColor": "black",
+    "iconUrl": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png"
   }
 ]

@@ -1,6 +1,5 @@
 import React from "react";
 import style from "../../common/socialIcons/index.module.css";
-import { motion } from "framer-motion";
 
 const SocialIcons = (props) => {
   const { icon, tooltip } = props;
@@ -21,8 +20,8 @@ const SocialIcons = (props) => {
       <img
         src={icon}
         alt="icon pic"
-        width={"32px"}
-        height={"32px"}
+        width={"31px"}
+        height={"31px"}
         className={style["logoStyle"]}
         title={tooltip}
         onClick={() => openUrl(tooltip)}
