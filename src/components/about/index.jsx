@@ -44,8 +44,8 @@ const About = () => {
           <p>
             😇 I am a passionate Software Engineer based in Pune India,
             currently amplifying digital excellence at Cavista (Axxess). Armed
-            with a Computer Engineering degree (2021) and 2 prolific years as a
-            Frontend developer (React & Vue), even clinching the prestigious
+            with a Computer Engineering degree (2021) and 2.5 prolific years as
+            a Frontend developer (React & Vue), even clinching the prestigious
             Xoriant Spot Award. My journey melds creativity and logic, sculpting
             web applications from mere ideas and designs. As an avid seeker of
             innovation, I'm on the prowl for a stage that nurtures new
