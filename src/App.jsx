@@ -16,13 +16,8 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 function App() {
-  const [lightMode, setLightMode] = useState(false);
-  const [openMsg, setOpenMsg] = useState(false);
+  const [lightMode, setLightMode] = useState(true);
   const [seed, setSeed] = useState(false);
-
-  useEffect(() => {
-    setOpenMsg(true);
-  }, []);
 
   const { ref, inView } = useInView({
     threshold: 0,
@@ -47,7 +42,7 @@ function App() {
           <FullPageSections style={{ overflow: "auto" }}>
             <FullpageSection className="home-pageSection">
               <Header setLightMode={setLightMode} lightMode={lightMode} />
-              <Home lightMode={lightMode} openMsg={openMsg} />
+              <Home lightMode={lightMode} />
             </FullpageSection>
             <FullpageSection className="pageSection">
               <About lightMode={lightMode} />

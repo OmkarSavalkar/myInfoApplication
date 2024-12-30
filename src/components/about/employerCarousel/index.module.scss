@@ -1,45 +1,32 @@
 .carouselXoriant-logos {
-  width: 40%;
-  margin-top: 12%;
+  width: 12%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
 }
 
 .carouselCavista-logos {
-  width: 40%;
+  width: 12%;
   background-color: white;
-  margin-top: 10%;
   padding: 8px;
   border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .carouselCHealByUS-logos {
-  width: 38%;
-  height: 60%;
-  background-color: white;
-  margin-top: 4%;
-  padding: 1px;
   border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-@media screen and (max-width: 1200px) {
-  .carousel-logos {
-    width: 40%;
+@media only screen and (hover: none) and (pointer: coarse) {
+  .carouselXoriant-logos,
+  .carouselCavista-logos {
+    width: 45% !important;
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .carousel-logos {
-    width: 45%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .carousel-logos {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 675px) {
-  .carousel-logos {
-    width: 56%;
-  }
+.marqueeLogos {
+  margin-top: 25px;
 }

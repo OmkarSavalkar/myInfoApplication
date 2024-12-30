@@ -6,51 +6,16 @@ import image1 from "../../images/My project4.png";
 import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 import ScrollIndicator from "../common/scrollIndicator";
 import { StyledButton } from "../../styledComponents";
-import Modal from "react-modal";
 import Typed from "react-typed";
-
-const customStyles = {
-  content: {
-    width: "30%",
-    height: "25%",
-    top: "50%",
-    left: "56%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-60%, -50%)",
-    overflow: "auto",
-    borderRadius: "20px",
-    backgroundColor: "#dbdbdb",
-    border: "1px solid black",
-  },
-};
+import Confetti from "react-confetti";
 
 const Home = (props) => {
-  const { lightMode, openMsg } = props;
+  const { lightMode } = props;
   const [mode, setMode] = useState(lightMode);
-  const [modalIsOpen, setIsOpen] = React.useState(false);
-
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
 
   const download_file = () => {
     document.getElementById("my_download").click();
   };
-
-  useEffect(() => {
-    if (openMsg) {
-      openModal();
-      setTimeout(() => {
-        setIsOpen(false);
-      }, 6000);
-    }
-  }, [openMsg]);
 
   useEffect(() => {
     setMode(!lightMode);
@@ -58,6 +23,7 @@ const Home = (props) => {
 
   return (
     <div>
+      <Confetti recycle={true} gravity={0.02} numberOfPieces={60} />
       <div className={styles["main-div"]}>
         <div className={styles["main-subdiv1"]}>
           <div className={styles["main-role"]}>
@@ -111,42 +77,6 @@ const Home = (props) => {
         </div>
         <ScrollIndicator />
       </div>
-      <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        style={customStyles}
-        contentLabel="Example Modal"
-        ariaHideApp={false}
-      >
-        <img
-          src={"https://cdn-icons-png.flaticon.com/512/5369/5369422.png"}
-          alt="close"
-          width="38px"
-          height="38px"
-          style={{ float: "right", cursor: "pointer" }}
-          onClick={closeModal}
-        />
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <p
-            style={{
-              fontSize: "1.1rem",
-              color: "black",
-            }}
-          >
-            <p style={{ margin: "0 auto" }}>Welcome</p>
-            <br /> 📌 Increase brightness for better experience <br />
-            <br /> 📌 Light and Dark mode available on top-right <br />
-            <br></br>
-            <span style={{ fontWeight: "bold" }}>Thank you!</span>
-          </p>
-        </div>
-      </Modal>
     </div>
   );
 };

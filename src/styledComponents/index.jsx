@@ -1,12 +1,10 @@
 import styled from "styled-components";
-import back from "../images/back5.png";
+import lightback from "../images/backLight.jpg";
 import darkback from "../images/backDark.jpg";
 
 export const BodyBackground = styled.div`
   background-image: ${(props) =>
-    props.bg ? `url(${back})` : `url(${darkback})`};
-  // background-image: radial-gradient(#37475e 0%, #10151b 70%);
-  // background-image: linear-gradient(45deg, #23a88e, #dae65f);
+    props.bg ? `url(${lightback})` : `url(${darkback})`};
   background-attachment: fixed;
   background-size: cover;
   transition: 5s;

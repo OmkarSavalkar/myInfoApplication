@@ -33,7 +33,7 @@ const FloatingButton = (props) => {
     {
       onClick: () =>
         alert(
-          "\nEmail Id:   omkarsavalkar22@gmail.com \n\nMobile No:   +91-9766112890"
+          "\nEmail Id:   omkarsavalkar22@gmail.com \n\nMobile No:   +91-9834017030"
         ),
       src: "https://cdn-icons-png.flaticon.com/512/1034/1034306.png?w=740&t=st=1672744562~exp=1672745162~hmac=480dcaaae09b7ab41bb7d0a7c63cae53e21ebd39c76bf3a2e4b44baa50da7452",
     },

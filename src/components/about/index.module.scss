@@ -3,56 +3,14 @@
 }
 
 .about-grid {
-  display: grid;
-  grid-template-columns: auto minmax(40%, 60%);
-  grid-gap: 5px;
   font-family: cursive;
   margin-bottom: 10px;
 }
 
-.about-profileImage {
-  position: relative;
-  display: block;
-}
-
-.avatar {
-  width: 31%;
-  margin: 4% auto 0px auto;
-  border-radius: 16%;
-  padding: 10px;
-  border: 3px solid;
-  animation: changeColor 4s infinite alternate;
-}
-@keyframes changeColor {
-  0% {
-    border-color: red;
-  }
-  14% {
-    border-color: orange;
-  }
-  28% {
-    border-color: yellow;
-  }
-  42% {
-    border-color: green;
-  }
-  57% {
-    border-color: blue;
-  }
-  71% {
-    border-color: indigo;
-  }
-  85% {
-    border-color: violet;
-  }
-  100% {
-    border-color: red;
-  }
-}
-
 .about-profiledescription {
   margin-right: 50px;
-  margin-top: 4%;
+  margin-top: 3%;
+  margin-left: 50px;
   font-size: 1.08rem;
   color: white;
 }
@@ -65,4 +23,8 @@
   .about-profiledescription {
     margin: 0 20px;
   }
+}
+
+.about-employer-carousel {
+  margin: 7% 65px 3% 65px;
 }

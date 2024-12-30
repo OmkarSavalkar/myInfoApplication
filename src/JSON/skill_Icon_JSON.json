@@ -1,15 +1,21 @@
 [
   {
-    "skillName": "React Js",
+    "skillName": "Vue",
+    "skillRating": 80,
+    "barColor": "#41b181",
+    "iconUrl": "https://play.vuejs.org/logo.svg"
+  },
+  {
+    "skillName": "React",
     "skillRating": 80,
     "barColor": "aqua",
     "iconUrl": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
   },
   {
-    "skillName": "Vue",
-    "skillRating": 80,
-    "barColor": "#41b181",
-    "iconUrl": "https://play.vuejs.org/logo.svg"
+    "skillName": "Next Js",
+    "skillRating": 65,
+    "barColor": "black",
+    "iconUrl": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png"
   },
   {
     "skillName": "JavaScript",
@@ -52,11 +58,5 @@
     "skillRating": 90,
     "barColor": "#00b0ff",
     "iconUrl": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
-  },
-  {
-    "skillName": "Next Js",
-    "skillRating": 65,
-    "barColor": "black",
-    "iconUrl": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png"
   }
 ]
