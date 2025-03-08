@@ -23,12 +23,14 @@ const Projects = (props) => {
         <div className={styles["mainProject-grid"]}>
           {projectData &&
             projectData?.map((item, index) => {
-              return <DisplayProject data={item} key={index} />;
+              return (
+                <DisplayProject data={item} key={index} lightMode={lightMode} />
+              );
             })}
         </div>
       </div>
       <div className={styles["this-project"]}>
-        <SectionSubTitle>
+        <SectionSubTitle lightMode={lightMode}>
           <img
             src="data:image/png;base64,R0lGODlhDwAPAKIHAP9mAP/MAMxmAP+ZAP//AMyZAP+ZM////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFMgAHACwAAAAADwAPAAADKni63P7wiNgmVaJYKsyuQlgYWvhJo6GSJ5ax7dKNsaxpUTbpUCjXl+AiAQAh+QQFMgAHACwAAAAADwAPAAADQHi6B8yDAeJWVLXRlSUJQfc0YDgC6FQOqTMRcBnAMNsMcm5jeB7snI8M2ND8ADibI6JSfmyXCVDaSWEwqJFFmwAAOw=="
             alt="star emoji"

@@ -15,8 +15,8 @@ export const StyledButton = styled.button`
   margin: ${(props) => props.buttonMargin};
   background-color: transparent;
   font-size: 1.1rem;
-  color: aqua;
-  border: 3px solid yellow;
+  color: ${(props) => (props.lightMode ? "black" : "white")};
+  border: 1.5px solid ${(props) => (props.lightMode ? "black" : "white")};
   border-radius: 15px;
   cursor: pointer;
   text-decoration: none !important ;
@@ -24,18 +24,14 @@ export const StyledButton = styled.button`
     margin-left: 10px;
   }
   &:hover {
-    border: 2px solid aqua;
-    color: yellow;
+    border: 2px solid ${(props) => (props.lightMode ? "black" : "white")};
     text-decoration: none !important;
-    i {
-      color: yellow;
-    }
   }
 `;
 
 export const SectionTitle = styled.h3`
   position: relative;
-  color: aqua;
+  color: ${(props) => (props.lightMode ? "navy" : "aqua")};
   display: block;
   margin-top: 3%;
   font-family: cursive;
@@ -43,7 +39,7 @@ export const SectionTitle = styled.h3`
 `;
 
 export const SectionSubTitle = styled.span`
-  color: aqua;
+  color: ${(props) => (props.lightMode ? "navy" : "aqua")};
   font-family: cursive;
   margin: 0 2% 0 2%;
   font-size: 1.07rem;
@@ -51,7 +47,7 @@ export const SectionSubTitle = styled.span`
 
 export const ProjectTitle = styled.span`
   // color: #ffff80;
-  color: yellow;
+  color: ${(props) => (props.lightMode ? "black" : "yellow")};
   font-size: 1.05rem;
   font-weight: 400;
 `;

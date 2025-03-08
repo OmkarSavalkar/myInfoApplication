@@ -1,7 +1,8 @@
 import React from "react";
 import ScrollIndicator from "../common/scrollIndicator";
 
-const Footer = () => {
+const Footer = (props) => {
+  const { lightMode } = props;
   return (
     <div
       style={{
@@ -14,7 +15,13 @@ const Footer = () => {
       <div style={{ rotate: "180deg" }}>
         <ScrollIndicator />
       </div>
-      <p style={{ fontSize: "12px", color: "white", paddingTop: "30px" }}>
+      <p
+        style={{
+          fontSize: "12px",
+          color: lightMode ? "grey" : "white",
+          paddingTop: "30px",
+        }}
+      >
         <i className="fa fa-copyright " style={{ marginRight: "5px" }} />
         Copyright 2023. Made by Omkar Savalkar
       </p>

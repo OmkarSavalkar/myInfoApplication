@@ -44,6 +44,7 @@ const Skills = (props) => {
                 rate={item?.skillRating}
                 barColor={item?.barColor}
                 iconLink={item?.iconUrl}
+                lightMode={lightMode}
               />
             );
           })}

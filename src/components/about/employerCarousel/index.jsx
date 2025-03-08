@@ -3,10 +3,12 @@ import styles from "../employerCarousel/index.module.scss";
 import SectionTitleComponent from "../../common/sectionTitle";
 import healbyus from "../../../images/healbyus.jpg";
 
-const EmployerCarousel = () => {
+const EmployerCarousel = (props) => {
+  const { lightMode } = props;
   return (
     <div>
       <SectionTitleComponent
+        lightMode={lightMode}
         sectionDescription={"Companies I've Worked With"}
       />
       <marquee scrollamount="15" className={styles["marqueeLogos"]}>

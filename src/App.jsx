@@ -57,7 +57,7 @@ function App() {
             </FullpageSection>
             <FullpageSection className="pageSection">
               <Contacts lightMode={lightMode} />
-              <Footer />
+              <Footer lightMode={lightMode} />
             </FullpageSection>
           </FullPageSections>
         </Fullpage>

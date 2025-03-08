@@ -5,7 +5,8 @@ import ScrollIndicator from "../scrollIndicator";
 import FloatingButton from "../floatingButton";
 
 const SectionTitleComponent = (props) => {
-  const { sectionTitle, sectionDescription, contactsSection } = props;
+  const { sectionTitle, sectionDescription, contactsSection, lightMode } =
+    props;
 
   return (
     <div>
@@ -15,7 +16,7 @@ const SectionTitleComponent = (props) => {
       sectionTitle ? (
         <>
           {contactsSection ? <></> : <FloatingButton fromHeader={false} />}
-          <SectionTitle>
+          <SectionTitle lightMode={lightMode}>
             <img
               src={seperatorImage}
               alt="seperator icon"
@@ -35,7 +36,9 @@ const SectionTitleComponent = (props) => {
       ) : (
         <></>
       )}
-      <SectionSubTitle>{sectionDescription}</SectionSubTitle>
+      <SectionSubTitle lightMode={lightMode}>
+        {sectionDescription}
+      </SectionSubTitle>
       {(sectionTitle != null ||
         sectionTitle !== undefined ||
         sectionTitle !== "") &&

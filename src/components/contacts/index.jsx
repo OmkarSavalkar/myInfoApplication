@@ -100,6 +100,7 @@ const Contacts = (props) => {
         </p>
         <p>
           <StyledButton
+            lightMode={lightMode}
             buttonMargin={"3px"}
             title="Send message"
             onClick={onSubmit}

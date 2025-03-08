@@ -12,10 +12,14 @@ const itemAnimate = {
 };
 
 const SkillsDiv = (props) => {
-  const { skillName, rate, barColor, iconLink } = props;
+  const { skillName, rate, barColor, iconLink, lightMode } = props;
   return (
     <motion.div variants={itemAnimate} className={styles["main-skill"]}>
-      <span style={{ fontSize: "1.06rem" }}>{skillName}</span>
+      <span
+        style={{ color: lightMode ? "grey" : "white", fontSize: "1.06rem" }}
+      >
+        {skillName}
+      </span>
 
       <div className={styles["skill-iconDiv"]}>
         <img

@@ -26,7 +26,7 @@ const customStyles = {
 };
 
 const DisplayProject = (props) => {
-  const { data } = props;
+  const { data, lightMode } = props;
 
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -58,9 +58,14 @@ const DisplayProject = (props) => {
         )}
       </div>
       <div className={styles["project-description"]}>
-        <ProjectTitle>{`${data?.projectName}`.toUpperCase()}</ProjectTitle>
-        <p>{data?.shortDescription}</p>
+        <ProjectTitle lightMode={lightMode}>
+          {`${data?.projectName}`.toUpperCase()}
+        </ProjectTitle>
+        <p style={{ color: lightMode ? "grey" : "white" }}>
+          {data?.shortDescription}
+        </p>
         <StyledButton
+          lightMode={lightMode}
           buttonMargin={"3px"}
           title="Click to get detailed information about this project"
           onClick={openModal}

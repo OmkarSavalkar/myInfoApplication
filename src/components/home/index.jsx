@@ -27,10 +27,13 @@ const Home = (props) => {
       <div className={styles["main-div"]}>
         <div className={styles["main-subdiv1"]}>
           <div className={styles["main-role"]}>
-            <span style={{ color: mode ? "yelow" : "aqua" }}>
+            <span style={{ color: mode ? "aqua" : "navy" }}>
               FRONTEND DEVELOPER
             </span>
-            <div className={styles["main-name"]}>
+            <div
+              className={styles["main-name"]}
+              style={{ color: mode ? "white" : "grey" }}
+            >
               <span className={styles["wave"]}>👋 </span>Hey, I'm
               <Typed
                 strings={["  Omkar Savalkar"]}
@@ -39,7 +42,10 @@ const Home = (props) => {
                 backDelay={3000}
                 loop
               />
-              <div className={styles["main-shortdescription"]}>
+              <div
+                className={styles["main-shortdescription"]}
+                style={{ color: mode ? "white" : "grey" }}
+              >
                 A Frontend focused Web Developer who enjoys building the
                 frontend of everything from small business websites to rich
                 interactive Web Applications that leads to the success of the
@@ -54,6 +60,7 @@ const Home = (props) => {
                     a
                   </a>
                   <StyledButton
+                    lightMode={lightMode}
                     buttonMargin={"20px"}
                     onClick={() => download_file()}
                   >

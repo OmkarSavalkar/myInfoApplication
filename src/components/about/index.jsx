@@ -1,20 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../about/index.module.scss";
 import SocialIcons from "../common/socialIcons";
 import EmployerCarousel from "./employerCarousel";
 import SectionTitleComponent from "../common/sectionTitle";
 
-const About = () => {
+const About = (props) => {
+  const { lightMode } = props;
+
   return (
     <div id="aboutId" style={{ position: "relative", top: 2 }}>
       <div className={styles["about"]}>
         <SectionTitleComponent
+          lightMode={lightMode}
           sectionTitle="About Me"
           sectionDescription={"Unveiling the Person Behind the Pixels"}
         />
       </div>
       <div className={styles["about-grid"]}>
-        <div className={styles["about-profiledescription"]}>
+        <div
+          className={styles["about-profiledescription"]}
+          style={{ color: lightMode ? "grey" : "white" }}
+        >
           <p>
             Frontend Developer. Problem Solver. Growth Enthusiast.
             <br />I am software engineer with over 3+ years of experience
@@ -31,7 +37,10 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/omkar-savalkar"
               target="_blank"
-              style={{ color: "yellow", paddingRight: "4px" }}
+              style={{
+                color: lightMode ? "navy" : "yellow",
+                paddingRight: "4px",
+              }}
               rel="noreferrer"
             >
               Linkedin
@@ -58,7 +67,7 @@ const About = () => {
       </div>
       <div className={styles["about-employer-carousel"]}>
         <div style={{ margin: "5px 2% 20px 2%" }}>
-          <EmployerCarousel />
+          <EmployerCarousel lightMode={lightMode} />
         </div>
       </div>
     </div>
