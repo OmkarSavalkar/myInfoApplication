@@ -16,7 +16,7 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 function App() {
-  const [lightMode, setLightMode] = useState(true);
+  const [lightMode, setLightMode] = useState(false);
   const [seed, setSeed] = useState(false);
 
   const { ref, inView } = useInView({
