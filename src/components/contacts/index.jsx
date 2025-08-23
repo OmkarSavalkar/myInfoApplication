@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "../contacts/index.module.scss";
 import { StyledButton } from "../../styledComponents";
 import SectionTitleComponent from "../common/sectionTitle";
@@ -60,7 +60,7 @@ const Contacts = (props) => {
       <SectionTitleComponent
         sectionTitle="Contact"
         sectionDescription={
-          "My inbox is always open and I'm looking for job opportunities also your insights and feedback regarding this portfolio are encouraged. Feel free to contact me by submitting the form below and I will get back to you as soon as possible."
+          "I’m always open to new opportunities, collaborations, and feedback on my portfolio. Drop me a message through the form below, and I’ll get back to you as soon as possible!"
         }
         contactsSection={true}
         lightMode={lightMode}

@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import styles from "../about/index.module.scss";
 import SocialIcons from "../common/socialIcons";
 import EmployerCarousel from "./employerCarousel";
@@ -13,7 +12,7 @@ const About = (props) => {
         <SectionTitleComponent
           lightMode={lightMode}
           sectionTitle="About Me"
-          sectionDescription={"Unveiling the Person Behind the Pixels"}
+          sectionDescription={"Problem Solver | Growth Enthusiast | Team Lead"}
         />
       </div>
       <div className={styles["about-grid"]}>
@@ -22,15 +21,14 @@ const About = (props) => {
           style={{ color: lightMode ? "grey" : "white" }}
         >
           <p>
-            Frontend Developer. Problem Solver. Growth Enthusiast.
-            <br />I am software engineer with over 3+ years of experience
-            developing exceptional web applications using <b>React</b> and{" "}
-            <b>Vue</b>. Based in Pune, India, I am currently shaping digital
-            experiences at Cavista Technology (US healthcare product-based
-            company). A proud recipient of the Xoriant Spot Award, I combine
-            creativity and technical expertise to transform ideas into
-            innovative solutions. With a Computer Engineering degree (2021) and
-            a passion for continuous growth and learning, I thrive on tackling
+            I’m a software engineer with 4+ years of experience building
+            dynamic, user-focused web applications using React and Vue.
+            Currently based in Pune, India, I’m shaping cutting-edge digital
+            experiences at Cavista Technology, a leading US healthcare product
+            company. A proud recipient of the Xoriant Spot Award, I bring
+            together creativity and technical expertise to transform ideas into
+            scalable, high-performance solutions. With a Computer Engineering
+            degree (2021) and a passion for continuous learning, I thrive on
             challenges that push the boundaries of web development.
             <br></br>
             <br></br>let's connect on{" "}

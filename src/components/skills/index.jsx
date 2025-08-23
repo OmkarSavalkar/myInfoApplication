@@ -25,7 +25,7 @@ const Skills = (props) => {
       <SectionTitleComponent
         sectionTitle="Skills"
         sectionDescription={
-          "Showcasing my technological palette in terms of Frontend"
+          "Turning designs into pixel-perfect, responsive, and performant web apps"
         }
         lightMode={lightMode}
       />

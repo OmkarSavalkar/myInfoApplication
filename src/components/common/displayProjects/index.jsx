@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "../displayProjects/index.module.scss";
 import { StyledButton } from "../../../styledComponents";
-import asee from "../../../images/asee.png";
 import Modal from "react-modal";
 import { ProjectTitle } from "../../../styledComponents";
-import dashboard from "../../../images/dashboard.gif";
+import connectWellRecording from "../../../images/dashboard.gif";
 import tictactoe from "../../../images/Tictactoe.gif";
 import restVideo from "../../../images/restVideo.gif";
+import rentManagementRecording from "../../../images/rent-management.gif";
 
 const customStyles = {
   content: {
@@ -30,7 +30,18 @@ const DisplayProject = (props) => {
 
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
-  // const connectwellImages = [connectwell, discussPic, expertPic, newsPic];
+  const sourceImages = (dataImage) => {
+    switch (dataImage) {
+      case "tic":
+        return tictactoe;
+      case "connectwell":
+        return connectWellRecording;
+      case "rentManagement":
+        return rentManagementRecording;
+      default:
+        break;
+    }
+  };
 
   function openModal() {
     setIsOpen(true);
@@ -43,19 +54,11 @@ const DisplayProject = (props) => {
   return (
     <>
       <div>
-        {data.image === "tic" ? (
-          <img
-            src={tictactoe}
-            alt="project pic"
-            className={styles["project-image"]}
-          />
-        ) : (
-          <img
-            src={data?.image === "asee" ? asee : dashboard}
-            alt="project pic"
-            className={styles["project-image"]}
-          />
-        )}
+        <img
+          src={sourceImages(data.image)}
+          alt="project pic"
+          className={styles["project-image"]}
+        />
       </div>
       <div className={styles["project-description"]}>
         <ProjectTitle lightMode={lightMode}>
@@ -158,19 +161,11 @@ const DisplayProject = (props) => {
                 alignItems: "center",
               }}
             >
-              {data.image === "tic" ? (
-                <img
-                  src={tictactoe}
-                  alt="project pic"
-                  className={styles["project-image"]}
-                />
-              ) : (
-                <img
-                  src={data?.image === "asee" ? asee : restVideo}
-                  alt="project pic"
-                  className={styles["project-image"]}
-                />
-              )}
+              <img
+                src={sourceImages(data.image)}
+                alt="project pic"
+                className={styles["project-image"]}
+              />
             </div>
           </div>
         </div>

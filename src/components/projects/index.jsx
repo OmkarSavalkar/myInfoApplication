@@ -14,7 +14,7 @@ const Projects = (props) => {
           <SectionTitleComponent
             sectionTitle="Projects"
             sectionDescription={
-              "Venture into my collection of personal and client projects with overviews"
+              "Every project is a story of challenges faced, solutions crafted, and experiences delivered"
             }
             lightMode={lightMode}
           />

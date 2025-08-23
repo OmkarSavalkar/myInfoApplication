@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import FloatingButton from "../common/floatingButton";
 import styles from "../header/index.module.scss";
 import ModeToggle from "../common/modeToggle";
 
@@ -20,9 +19,6 @@ const Header = (props) => {
             {/* <span className={styles["header-nameSpan"]}>Omkar Savalkar </span>
             <span className={styles["header-nameSpanArrow"]}>{`>>>`}</span> */}
           </a>
-          <div className={styles["topnav-right"]}>
-            <FloatingButton fromHeader={true} />
-          </div>
           <ModeToggle
             fromHeader={true}
             setLightMode={setLightMode}

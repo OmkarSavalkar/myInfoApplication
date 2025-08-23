@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./index.module.scss";
 import blob5 from "../../images/blob2.png";
 import blob1 from "../../images/blob1.png";
 import image1 from "../../images/My project4.png";
-import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
+import myResume from "../../resumeDownload/Omkar Savalkar_Resume.pdf";
 import ScrollIndicator from "../common/scrollIndicator";
 import { StyledButton } from "../../styledComponents";
 import Typed from "react-typed";
@@ -46,10 +46,9 @@ const Home = (props) => {
                 className={styles["main-shortdescription"]}
                 style={{ color: mode ? "white" : "grey" }}
               >
-                A Frontend focused Web Developer who enjoys building the
-                frontend of everything from small business websites to rich
-                interactive Web Applications that leads to the success of the
-                overall product
+                Passionate about performance and design, I create user-centric
+                applications with React.js, Vue.js, Next.js and modern web
+                technologies that drive product success
                 <div className={styles["resume-div"]}>
                   <a
                     id="my_download"
