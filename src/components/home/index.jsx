@@ -6,8 +6,8 @@ import image1 from "../../images/My project4.png";
 import myResume from "../../resumeDownload/Omkar Savalkar_Resume.pdf";
 import ScrollIndicator from "../common/scrollIndicator";
 import { StyledButton } from "../../styledComponents";
-import Typed from "react-typed";
 import Confetti from "react-confetti";
+import { Typewriter } from "react-simple-typewriter";
 
 const Home = (props) => {
   const { lightMode } = props;
@@ -35,12 +35,14 @@ const Home = (props) => {
               style={{ color: mode ? "white" : "grey" }}
             >
               <span className={styles["wave"]}>👋 </span>Hey, I'm
-              <Typed
-                strings={["  Omkar Savalkar"]}
+              <Typewriter
+                words={["  Omkar Savalkar"]}
+                loop={true}
+                cursor
+                cursorStyle="|"
                 typeSpeed={150}
-                backSpeed={150}
-                backDelay={3000}
-                loop
+                deleteSpeed={150}
+                delaySpeed={3000}
               />
               <div
                 className={styles["main-shortdescription"]}
