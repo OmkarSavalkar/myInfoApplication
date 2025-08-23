@@ -1,4 +1,3 @@
-import React from "react";
 import SkillsDiv from "../common/skillsDiv";
 import styles from "../skills/index.module.scss";
 import skillData from "../../JSON/skill_Icon_JSON.json";

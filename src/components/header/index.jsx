@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import styles from "../header/index.module.scss";
 import ModeToggle from "../common/modeToggle";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import ScrollIndicator from "../common/scrollIndicator";
 
 const Footer = (props) => {

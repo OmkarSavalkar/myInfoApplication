@@ -1,4 +1,3 @@
-import React from "react";
 import { SectionSubTitle, SectionTitle } from "../../../styledComponents";
 import seperatorImage from "../../../images/seperatorImage.png";
 import ScrollIndicator from "../scrollIndicator";

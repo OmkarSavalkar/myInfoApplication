@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../scrollIndicator/index.module.scss";
 
 const ScrollIndicator = () => {

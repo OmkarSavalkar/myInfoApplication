@@ -1,4 +1,3 @@
-import React from "react";
 import Ratings from "./ratings";
 import styles from "../skillsDiv/index.module.scss";
 import { motion } from "framer-motion";

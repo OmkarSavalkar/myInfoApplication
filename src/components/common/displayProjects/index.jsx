@@ -5,7 +5,6 @@ import Modal from "react-modal";
 import { ProjectTitle } from "../../../styledComponents";
 import connectWellRecording from "../../../images/dashboard.gif";
 import tictactoe from "../../../images/Tictactoe.gif";
-import restVideo from "../../../images/restVideo.gif";
 import rentManagementRecording from "../../../images/rent-management.gif";
 
 const customStyles = {

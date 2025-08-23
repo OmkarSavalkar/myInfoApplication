@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "../modeToggle/index.module.scss";
 
 const ModeToggle = (props) => {

@@ -1,4 +1,3 @@
-import React from "react";
 import SectionTitleComponent from "../common/sectionTitle";
 import styles from "../projects/index.module.scss";
 import projectData from "../../JSON/projects.json";

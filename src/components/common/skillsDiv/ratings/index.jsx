@@ -1,5 +1,3 @@
-import React from "react";
-
 const Ratings = (props) => {
   const { bgcolor, rate } = props;
 
