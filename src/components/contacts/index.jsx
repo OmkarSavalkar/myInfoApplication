@@ -3,21 +3,9 @@ import styles from "../contacts/index.module.scss";
 import { StyledButton } from "../../styledComponents";
 import SectionTitleComponent from "../common/sectionTitle";
 import { send } from "emailjs-com";
-import { useSnackbar } from "react-simple-snackbar";
-
-const options = {
-  style: {
-    backgroundColor: "orange",
-    color: "white",
-    fontFamily: "Menlo, monospace",
-    fontSize: "15px",
-    textAlign: "center",
-  },
-};
 
 const Contacts = (props) => {
   const { lightMode } = props;
-  const [openSnackbar] = useSnackbar(options);
   const [toSend, setToSend] = useState({
     from_name: "",
     to_name: "Omkar",
@@ -35,7 +23,7 @@ const Contacts = (props) => {
         `${process.env.REACT_APP_USER}`
       )
         .then((response) => {
-          openSnackbar("Message sent successfully ! ");
+          alert("Message sent successfully");
           setToSend({
             from_name: "",
             to_name: "Omkar",
@@ -44,10 +32,10 @@ const Contacts = (props) => {
           });
         })
         .catch((err) => {
-          openSnackbar("Something went wrong ! ");
+          alert("Some error occurred");
         });
     } else {
-      openSnackbar("Please enter all fields ! ");
+      alert("Please enter all fields");
     }
   };
 
