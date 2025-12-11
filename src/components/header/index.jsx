@@ -16,8 +16,12 @@ const Header = (props) => {
               "This portfolio is created using React Js, JavaScript, CSS-SASS, Styled-Components"
             }
           >
-            {/* <span className={styles["header-nameSpan"]}>Omkar Savalkar </span>
-            <span className={styles["header-nameSpanArrow"]}>{`>>>`}</span> */}
+            <span className={styles["header-nameSpanArrow"]}>{`<`}</span>
+            <span className={styles["header-nameSpan"]}>
+              {" "}
+              Selfmade React Js Portfolio{" "}
+            </span>
+            <span className={styles["header-nameSpanArrow"]}>{`>`}</span>
           </a>
           <ModeToggle
             fromHeader={true}

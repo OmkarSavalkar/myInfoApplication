@@ -5,12 +5,6 @@ const SocialIcons = (props) => {
   const openUrl = (iconName) => {
     iconName === "GitHub"
       ? window.open("https://github.com/OmkarSavalkar", "_blank")
-      : iconName === "Gmail"
-      ? window.open(
-          "mailto:omkarsavalkar22@gmail.com?subject=SendMail&body=Description"
-        )
-      : iconName === "Instagram"
-      ? window.open("https://www.instagram.com/omkar.s22/", "_blank")
       : window.open("https://www.linkedin.com/in/omkar-savalkar", "_blank");
   };
 
@@ -24,9 +18,6 @@ const SocialIcons = (props) => {
         className={style["logoStyle"]}
         title={tooltip}
         onClick={() => openUrl(tooltip)}
-        // whileHover={{ scale: 1.2, rotate: 360 }}
-        // transition={{ ease: "linear", duration: 2, repeat: Infinity }}
-        // whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
       />
     </>
   );

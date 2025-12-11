@@ -12,7 +12,9 @@ const About = (props) => {
         <SectionTitleComponent
           lightMode={lightMode}
           sectionTitle="About Me"
-          sectionDescription={"Problem Solver | Growth Enthusiast | Team Lead"}
+          sectionDescription={
+            "Problem Solver | Growth Enthusiast | Mentor & Team Lead"
+          }
         />
       </div>
       <div className={styles["about-grid"]}>
@@ -21,15 +23,19 @@ const About = (props) => {
           style={{ color: lightMode ? "grey" : "white" }}
         >
           <p>
-            I’m a software engineer with 4+ years of experience building
-            dynamic, user-focused web applications using React and Vue.
-            Currently based in Pune, India, I’m shaping cutting-edge digital
-            experiences at Cavista Technology, a leading US healthcare product
-            company. A proud recipient of the Xoriant Spot Award, I bring
-            together creativity and technical expertise to transform ideas into
-            scalable, high-performance solutions. With a Computer Engineering
-            degree (2021) and a passion for continuous learning, I thrive on
-            challenges that push the boundaries of web development.
+            I’m a Frontend Engineer with 4.5 years of experience building
+            high-performance, scalable, and user-centric web applications using
+            React, Vue, and Next.js. <br></br>I currently work at Cavista
+            (Axxess), contributing to enterprise healthcare platforms used by
+            9,000+ care organizations and millions of patients across the USA &
+            UAE. With hands-on expertise in UI architecture, performance
+            optimization, reusable component design, and end-to-end feature
+            ownership, I focus on translating complex requirements into clean,
+            maintainable, and impactful digital experiences.<br></br> Previously
+            at Xoriant, I engineered production-grade interfaces for U.S.
+            clients and was recognized with the Xoriant Spot Award. I hold a
+            Computer Engineering degree (2021) and constantly push myself to
+            stay on top of modern web development.
             <br></br>
             <br></br>let's connect on{" "}
             <a
@@ -55,10 +61,6 @@ const About = (props) => {
             <SocialIcons
               icon="https://cdn-icons-png.flaticon.com/512/1051/1051275.png"
               tooltip="GitHub"
-            />
-            <SocialIcons
-              icon="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png"
-              tooltip="Instagram"
             />
           </div>
         </div>

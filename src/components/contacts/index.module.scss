@@ -1,7 +1,6 @@
 .form {
   width: 33%;
   height: 75%;
-  // background: #808080;
   background: #646464;
   border-radius: 20px;
   box-shadow: 0 0 60px -10px #000;
@@ -11,6 +10,7 @@
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
+
 .input-styles {
   width: 100%;
   padding: 10px;
@@ -25,13 +25,16 @@
   text-align: center;
   color: white;
 }
+
 .input-styles :focus {
   border-bottom: 2px solid dodgerblue;
 }
+
 .input-styles::placeholder {
   color: #202020;
   font-size: 14px;
 }
+
 .form p:before {
   content: attr(type);
   display: block;

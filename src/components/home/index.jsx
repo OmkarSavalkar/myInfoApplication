@@ -3,7 +3,7 @@ import styles from "./index.module.scss";
 import blob5 from "../../images/blob2.png";
 import blob1 from "../../images/blob1.png";
 import image1 from "../../images/My project4.png";
-import myResume from "../../resumeDownload/Omkar Savalkar_Resume.pdf";
+import myResume from "../../resumeDownload/Resume Omkar Savalkar.pdf";
 import ScrollIndicator from "../common/scrollIndicator";
 import { StyledButton } from "../../styledComponents";
 import Confetti from "react-confetti";
@@ -48,9 +48,10 @@ const Home = (props) => {
                 className={styles["main-shortdescription"]}
                 style={{ color: mode ? "white" : "grey" }}
               >
-                Passionate about performance and design, I create user-centric
-                applications with React.js, Vue.js, Next.js and modern web
-                technologies that drive product success
+                Frontend Engineer building high-performance, scalable, and
+                user-centric web applications used across the USA & UAE. I
+                specialize in React, Vue, and Next.js, delivering clean
+                architecture, optimized UI, and end-to-end feature ownership.
                 <div className={styles["resume-div"]}>
                   <a
                     id="my_download"

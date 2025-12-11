@@ -6,6 +6,7 @@ import { ProjectTitle } from "../../../styledComponents";
 import connectWellRecording from "../../../images/dashboard.gif";
 import tictactoe from "../../../images/Tictactoe.gif";
 import rentManagementRecording from "../../../images/rent-management.gif";
+import ecommerceRecording from "../../../images/ecommerce.gif";
 
 const customStyles = {
   content: {
@@ -37,6 +38,8 @@ const DisplayProject = (props) => {
         return connectWellRecording;
       case "rentManagement":
         return rentManagementRecording;
+      case "ecommerce":
+        return ecommerceRecording;
       default:
         break;
     }
@@ -102,10 +105,6 @@ const DisplayProject = (props) => {
         >
           <div className={styles["modal-projectName"]}>
             {`${data?.projectName}`.toUpperCase()}
-          </div>
-          <div>
-            <span className={styles["modal-sectionHeading"]}>Role: </span>
-            {data?.role}
           </div>
           <div>
             <span className={styles["modal-sectionHeading"]}>

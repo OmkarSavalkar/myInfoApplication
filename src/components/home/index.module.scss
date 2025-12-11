@@ -75,26 +75,6 @@
   font-weight: normal;
 }
 
-.resume-button {
-  padding: 5px 45px;
-  margin: 20px 0;
-  background-color: transparent;
-  font-size: 1.1rem;
-  color: aqua;
-  border: 2px solid aqua;
-  border-radius: 15px;
-  cursor: pointer;
-  text-decoration: none !important ;
-}
-
-.resume-button:hover {
-  border: 2px solid DodgerBlue;
-  text-decoration: none !important;
-  i {
-    color: white;
-  }
-}
-
 @media screen and (max-width: 675px) {
   .main-div {
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
@@ -231,7 +211,6 @@
 @media screen and (max-width: 1110px) {
   .blob-Myimages1 {
     width: 48%;
-    // width: 58%;
   }
   .blob-images2 {
     width: 87%;
@@ -247,7 +226,6 @@
   }
   .blob-Myimages1 {
     width: 48%;
-    // width: 58%;
   }
   .blob-images2 {
     width: 85%;
@@ -261,7 +239,6 @@
   .blob-Myimages1 {
     width: 53%;
     margin-top: 3%;
-    // width: 60%;
   }
   .blob-images2 {
     width: 86%;
@@ -338,10 +315,4 @@
   .blob-images1 {
     width: 84%;
   }
-}
-
-.main-subdiv3 {
-  z-index: 5;
-  display: flex;
-  position: relative;
 }

@@ -1,22 +1,28 @@
 [
   {
-    "projectName": "Rent Management System (React.js / Next.js, TailwindCSS)",
-    "role": "UI Developer",
-    "shortDescription": "Mobile-friendly rent management application for personal use, designed specifically for my family to digitally manage our home renters. It simplifies the process of calculating and tracking monthly rent, removing the need for manual paper records. This app was built to help my family easily calculate rent for our house renters, keep renter details organized, and maintain rent history, ease to notify renters — all in one place.",
-    "overviewDescription": "Created a mobile-first Rent Management System for personal use with Next.js, Firebase Firestore, and TailwindCSS, featuring responsive UI and practical real-world usability. Designed and executed logic to manage 4 renter profiles, calculate rent, update meter readings, save rent records, and generate editable rent messages for quick sharing via WhatsApp or SMS. Added complete CRUD functionality for renter profiles and rent history with error-handled Firestore operations.",
+    "projectName": "React E-commerce Dashboard",
+    "shortDescription": "A user-friendly product search interface built using the SearchSpring API. This project allows users to search products, browse paginated results, and view product details such as pricing, discounts, ratings, and badges.",
+    "overviewDescription": "Features - Real-time product search using SearchSpring API, 📄 Pagination support (Next / Previous), 🛍️ Product cards with images, description trim, and discount calculation, 🏷️ Dynamic badges: On Sale / Bestseller,📱 Fully responsive UI,⚡ Optimized API fetching, 🎯 Smooth scrolling on paginationThis project uses the official SearchSpring Search API: https://api.searchspring.net/api/search/search.json",
     "tools": [
       "React Js",
-      "Next Js",
-      "JavaScript",
-      "TailwindCSS",
-      "few other libraries"
+      "TypeScript",
+      "Material UI",
+      "Performance optimizations",
+      "Vite"
     ],
+    "image": "ecommerce",
+    "liveLink": "https://ecommerce-search-seven.vercel.app"
+  },
+  {
+    "projectName": "Rent Management System (React.js / Next.js, TailwindCSS)",
+    "shortDescription": "Mobile-friendly rent management application for personal use, designed specifically for my family to digitally manage our home renters. It simplifies the process of calculating and tracking monthly rent, removing the need for manual paper records. This app was built to help my family easily calculate rent for our house renters, keep renter details organized, and maintain rent history, ease to notify renters — all in one place.",
+    "overviewDescription": "Created a mobile-first Rent Management System for personal use with Next.js, Firebase Firestore, and TailwindCSS, featuring responsive UI and practical real-world usability. Designed and executed logic to manage 4 renter profiles, calculate rent, update meter readings, save rent records, and generate editable rent messages for quick sharing via WhatsApp or SMS. Added complete CRUD functionality for renter profiles and rent history with error-handled Firestore operations.",
+    "tools": ["React Js", "JavaScript", "TailwindCSS", "few other libraries"],
     "image": "rentManagement",
     "liveLink": "https://my-rent-management-git-master-omkarsavalkars-projects.vercel.app"
   },
   {
     "projectName": "Connect Well Application (Next.js, Node Js, Mongo DB)",
-    "role": "MERN Developer",
     "shortDescription": "(Hackathon Project) 🧑🏻‍💻 A dynamic web application which can be used at organization level to improve employee's connectivity within organization. It provides one step platform to get connected with unkown experts for any help in specific technical domains. Covers everything needed to resolve issue. [Click on overview to view all screens]",
     "overviewDescription": "This web application can be integrated into company's portal which solves the issue like unable to get quick help related to client or company work to incure confidentiality and limited reach to known people on specific technology. It provides a platform to ask queries providing seperated room chat space for every user and high chances for getting solution due to more employees as expert. Support for all technology stacks ike docker, react, java, etc. It increases employee connectivity within organization who are located world-wide. Since Experts are employees as well this reduces information leak. Application triggers notification mails to desired people for evry action to alert them and get quick resolutions. To imporove expert employee's engagement application provides feature for expert leader board. Few other user support options are present like turn on/off notification, treanding tech stack, adding tech stack, expert verification through manager, etc. This project can be a great application integrated in company's portal for help of technical engineer employees.",
     "tools": [
@@ -34,7 +40,6 @@
   },
   {
     "projectName": "Tic Tac Toe React Game (React.js, Javascript, HTML, CSS)",
-    "role": "Frontend React Js Developer",
     "shortDescription": "🧑🏻‍💻 About React Tic Tac Toe game. 2 player game with unlimited play feature using reset option. carefully designed and implemented considering all corner cases. Has user guide for players not familier with this game",
     "overviewDescription": "2 player game 'X' and 'O' with unlimited play feature using reset option. Carefully designed and implemented considering all corner cases. Has user guide for players not familier with this game. Informs about the result of the game. Doesn't allow to edit the same boxes. Fun fact is that it can be used instead of coin toss as well to determine who wins and goes first. Enjoy!",
     "tools": ["React Js", "JavaScript", "CSS"],

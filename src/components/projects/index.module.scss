@@ -3,32 +3,13 @@
   grid-template-columns: auto minmax(40%, 40%);
   grid-gap: 5px;
   font-family: cursive;
-  margin: 50px 1% 50px 1%;
-  grid-row-gap: 15%;
-}
-
-.this-project {
-  position: relative;
-  margin: 30% 3px 2% 3px;
+  margin: 50px 1% 10em 1% !important;
+  grid-row-gap: 3%;
 }
 
 @media screen and (max-width: 675px) {
   .mainProject-grid {
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     grid-row-gap: 3%;
-  }
-  .this-project {
-    margin-top: 67%;
-  }
-}
-@media screen and (max-width: 455px) {
-  .this-project {
-    margin-top: 67%;
-  }
-}
-
-@media screen and (max-width: 310px) {
-  .this-project {
-    margin-top: 60%;
   }
 }
