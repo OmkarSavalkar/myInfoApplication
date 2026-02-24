@@ -23,7 +23,7 @@ const About = (props) => {
           style={{ color: lightMode ? "grey" : "white" }}
         >
           <p>
-            I’m a Frontend Engineer with 4.5 years of experience building
+            I’m a Frontend Engineer with 4.7 years of experience building
             high-performance, scalable, and user-centric web applications using
             React, Vue, and Next.js. <br></br>I currently work at Cavista
             (Axxess), contributing to enterprise healthcare platforms used by
